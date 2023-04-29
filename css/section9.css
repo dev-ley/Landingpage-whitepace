@@ -1,0 +1,31 @@
+.section9 {
+
+align-items: center;
+
+}
+
+
+.section9 > h4 {
+
+    padding-top: 4.9375rem;
+    height: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3125rem;
+    line-height: 2.75rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    background-image: url(../img/Mobile/imgsection2/Element2.png);
+    background-repeat: no-repeat;
+    background-size:  67%;
+    background-position-y: 106%;
+    background-position-x: 105%;
+    color:var(--cor-titulos)
+}
+
+.section9 > img {
+
+    display: block;
+    align-items: center;
+    margin: 5.8rem auto;
+}

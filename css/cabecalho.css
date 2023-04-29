@@ -1,0 +1,29 @@
+.cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--cor-principal)
+}
+
+.conteiner_cabecalho {
+
+    display: flex;
+    color: var(--cor-branco);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    align-items: center;
+}
+
+.titulo_header {
+
+    padding-left: 6%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}

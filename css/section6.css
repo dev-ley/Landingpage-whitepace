@@ -1,0 +1,130 @@
+.section6 {
+
+    width: auto;
+    background-color: var(--cor-branco);
+    padding: 0 0.9rem;
+}
+
+.section6 > h4 {
+
+    padding-top: 11.6rem;
+    height: 7.6rem;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.3125rem;
+    line-height: 2.75rem;
+    text-align: center;
+    letter-spacing: -0.02em;
+    background-image: url(../img/Mobile/imgsection6/Vector.svg);
+    background-repeat: no-repeat;
+    background-size:  37%;
+    background-position-y: 93%;
+    background-position-x: 54%;
+    color:var(--cor-titulos);
+}
+
+.section6 > p {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 167%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+
+.box-preco {
+
+    margin-top: 86px;
+    background-color: var(--cor-principal);
+    border-radius: 10px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);  
+    width: auto;
+    height: 600px;
+    padding: 20px 0px 13px 10px;
+
+}
+
+.box-preco > h5 {
+
+    width: 249px;
+    height: 36px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+
+}
+
+.box-preco > span {
+
+    width: 249px;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #FEFEFE;
+
+}
+
+.box-preco > p {
+
+margin-top: 25px;
+color: #ffffff;
+margin-bottom: 20px;
+}
+
+
+
+
+.box-preco > ul> li {
+
+    list-style-image: url(../img/Mobile/imgsection6/Icon.svg);
+    list-style-position: outside;
+    padding: 0.6rem 1.5rem 0.6rem 0.7rem;
+    color: var(--cor-branco);
+    text-align: start;
+    margin-left: 30px;
+    
+
+
+}
+
+.box-preco > a {
+
+    display: flex;
+    flex-direction: row;
+    padding: 18px 40px;
+    max-width: 100px;
+    margin: 10px 10px 50px 10px;
+    text-align: center;
+    background: #4F9CF9;
+    color: var(--cor-branco);
+    border-radius: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+
+}
+
+.box-img {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.box-img > img {
+
+
+margin: 90px auto;
+
+}

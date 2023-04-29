@@ -1,0 +1,79 @@
+.section5 {
+
+    background-color: var(--cor-branco);
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 7.6rem;
+}
+
+.button2_section5 {
+
+    display: flex;
+    padding-top: 2.4rem;
+    flex-direction: row;
+    gap: 0.625rem;
+    width: 100%;
+    height: 11.5rem;
+    background: var(--cor-secundaria);
+    color: var(--cor-branco);
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 167%;
+    letter-spacing: -0.02em;
+}
+
+.section5 > h4 {
+
+    color: var(--cor-titulos);
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    padding-top: 4.4rem;
+    background-image: url(../img/Mobile/imgsection4/Vector.png);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    background-position-x: 110%;
+    background-position-y: 90%;
+    height: 7.2rem;
+}
+
+.section5 > p {
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 19px;
+line-height: 23px;
+text-align: center;
+letter-spacing: -0.02em;
+color: var(--cor-titulos);
+
+}
+
+.button1_section5 {
+
+    display: flex;
+    margin-top: 4rem;
+    flex-direction: row;
+    margin: 4.2rem auto 0 auto;
+    gap: 0.625rem;
+    align-items: center;
+    padding-left: 20%;
+    width: 140px;
+    height: 4.2rem;
+    background: #4F9CF9;
+    color: var(--cor-branco);
+    border-radius: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-align: center;
+}

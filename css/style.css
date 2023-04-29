@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat&display=swap');
+
+@import url(cabecalho.css); @import url(section1.css); @import url(section2.css); @import url(section3.css);
+@import url(section4.css); @import url(section5.css); @import url(section6.css); @import url(section7.css);
+@import url(section8.css); @import url(section9.css); @import url(section10.css); @import url(section11.css);
+
+
+:root {
+
+--cor-principal: #043873;
+--cor-secundaria: #C4DEFD;
+--cor-branco: #ffffff;
+--cor-titulos: #212529;
+--font-principal: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-principal);
+}
+
