@@ -38,14 +38,9 @@ color: var(--cor-branco);
 .button_section1 {
 
     display: flex;
-    margin-top: 3.75rem;
     flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
     gap: 0.625rem;
     align-items: center;
-    padding-left: 15%;
-    height: 4.375rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;
@@ -55,6 +50,9 @@ color: var(--cor-branco);
     line-height: 167%;
     letter-spacing: -0.02em;
     text-decoration: none;
+    padding: 20px   ;
+    width: 180px;
+    margin: 80px auto;
 }
 
 .button2_section1 {
