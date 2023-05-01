@@ -28,10 +28,10 @@
 
 .section4 > p {
 
-padding-top: 1rem;
+padding-top: 0rem;
 font-style: normal;
 font-weight: 300;
-font-size: 1.2rem;
+font-size: 1.140rem;
 line-height: 167%;
 text-align: center;
 letter-spacing: -0.02em;
@@ -41,9 +41,8 @@ color: var(--cor-branco);
 .button1_section4 {
 
     display: flex;
-    margin-top: 3.5rem;
     flex-direction: row;
-    margin: 4.1rem auto 0 auto;
+    margin: 4rem auto 0 auto;
     gap: 0.625rem;
     align-items: center;
 
