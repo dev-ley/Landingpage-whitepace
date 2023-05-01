@@ -21,13 +21,14 @@
     background-image: url(../img/Mobile/imgsection4/Vector.png);
     background-repeat: no-repeat;
     background-size: 50%;
-    background-position-x: 85%;
-    background-position-y: 87%;
-    height: 7.2rem;
+    background-position-x: 82%;
+    background-position-y: 95%;
+    height: 6.2rem;
 }
 
 .section4 > p {
 
+padding-top: 1rem;
 font-style: normal;
 font-weight: 300;
 font-size: 1.2rem;
@@ -42,7 +43,7 @@ color: var(--cor-branco);
     display: flex;
     margin-top: 3.5rem;
     flex-direction: row;
-    margin: 3rem auto 0 auto;
+    margin: 4.1rem auto 0 auto;
     gap: 0.625rem;
     align-items: center;
 
