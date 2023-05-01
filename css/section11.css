@@ -51,7 +51,7 @@
 
 .avatar {
 
-padding: 40px 0px 25px 10px;
+padding: 40px 0px 15px 10px;
 
 }
 
@@ -64,7 +64,7 @@ padding: 40px 0px 25px 10px;
     line-height: 125%;
     letter-spacing: -0.02em;
     align-self: stretch;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .comentarios2 {

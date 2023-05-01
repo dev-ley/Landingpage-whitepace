@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    background-color: var(--cor-principal);
+    padding: 30px;
+    margin: -69px 0 0 0;
+}
+
+.box-footer {
+
+    display: flex;
+    margin: 0 auto;
+    gap: 32px;
+}

@@ -1,0 +1,76 @@
+.section12{
+
+    background-color: var(--cor-principal);
+    width: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 8rem;
+
+}
+
+.section12 > h4 {
+
+    color: var(--cor-branco);
+    text-align: start;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    padding-top: 6rem;
+    height: 7.5rem;
+
+}
+
+.section12 > p {
+
+font-style: normal;
+font-weight: 300;
+font-size: 1.150rem;
+line-height: 167%;
+text-align: start;
+letter-spacing: -0.02em;
+color: var(--cor-branco);
+}
+
+.button1_section12 {
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+    align-items: center;
+    margin: 38px auto 40px 5px;
+    width: 150px;
+    padding: 17px 25px 17px 30px;
+    background: #4F9CF9;
+    color: var(--cor-branco);
+    border-radius: 0.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 167%;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.contatolink {
+
+text-decoration: none;
+color:var(--cor-branco);
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+
+}
+
+.box-logos {
+
+    display: flex;
+    margin: 35px 0px 0px 0px;
+    gap: 40px;
+
+
+}
