@@ -50,7 +50,7 @@ color: var(--cor-branco);
     line-height: 167%;
     letter-spacing: -0.02em;
     text-decoration: none;
-    padding: 20px   ;
+    padding: 20px 10px 20px 20px;
     width: 180px;
     margin: 80px auto;
 }
