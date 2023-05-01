@@ -5,7 +5,7 @@
     height: 54.8125rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 88px;
+    margin-top: 5.5rem;
 
 }
 
@@ -46,8 +46,8 @@ color: var(--cor-branco);
     gap: 0.625rem;
     align-items: center;
 
-    width: 120px;
-    padding: 20px 0px 20px 40px;
+    width: 7.5rem;
+    padding: 1.25rem 0rem 1.25rem 2.5rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;
