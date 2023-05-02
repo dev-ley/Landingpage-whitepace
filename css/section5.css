@@ -63,9 +63,9 @@ color: var(--cor-titulos);
     margin: 4.2rem auto 0 auto;
     gap: 0.625rem;
     align-items: center;
-    padding-left: 20%;
-    width: 8.75rem;
-    height: 4.2rem;
+
+    width: 7.5rem;
+    padding: 1.25rem 0rem 1.25rem 2.5rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;
