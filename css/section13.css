@@ -12,11 +12,14 @@
 
 .box-logoetitulo {
 
-    margin: 0 auto 0 10%;
+    margin: 0rem auto 0rem auto;
     display: flex;
-    gap: 10px;
-    padding-top: 21px;
-    padding-bottom: 15px;
+    padding-top: 2.8125rem;
+    padding-bottom: 0.9375rem;
+    text-align: center;
+    align-items: center;
+    gap: 0.625;
+    justify-content: center;
 
 
 }
@@ -30,6 +33,8 @@
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
+    gap: 1.875rem;
+    
 
 
 }
@@ -38,30 +43,30 @@
 
     font-style: normal;
     font-weight: 300;
-    font-size: 19px;
+    font-size: 1.1875rem;
     line-height: 167%;
     text-align: center;
     letter-spacing: -0.02em;
     color: var(--cor-branco);
     flex: none;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 
 }
 
 
 .boxlinks1 {
-    margin: 67px auto;
+    margin: 4.1875rem auto;
 }
 
 .boxlinks2 {
 
-    margin: 67px auto;
+    margin: 4.1875rem auto;
 
 }
 
 .boxlinks3 {
 
-    margin: 67px auto;
+    margin: 4.1875rem auto;
 
 }
 
@@ -71,7 +76,7 @@
     text-decoration: none;
     color: var(--cor-branco);
     list-style: none;
-    padding: 11px;
+    padding: 0.6875rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -83,8 +88,8 @@
     text-decoration: none;
     color: var(--cor-branco);
     list-style: none;
-    padding: 11px;
-    margin: 0px auto;
+    padding: 0.6875rem;
+    margin: 0rem auto;
     text-align: center;
     }
 
@@ -94,7 +99,7 @@
     text-decoration: none;
     color: var(--cor-branco);
     list-style: none;
-    padding: 11px;
+    padding: 0.6875rem;
     margin: 0 auto;
     text-align: center;
     }
@@ -103,13 +108,13 @@
 
 .ultimobloco > h4 {
 
-    margin: 0 auto 30px auto;
+    margin: 0 auto 1.875rem auto;
     text-align: center;
     color: var(--cor-branco);
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
 }
 
 .ultimobloco > p {
@@ -117,9 +122,9 @@
 margin: 0 auto;
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
+font-size: 1.125rem;
 line-height: 167%;
-width: 201px;
+width: 12.5625rem;
 text-align: center;
 letter-spacing: -0.02em;
 
@@ -132,9 +137,9 @@ color:var(--cor-branco);
     flex-direction: row;
     margin: 0 auto 0 auto;
     align-items: center;
-    width: 140px;
-    margin: 30px auto;
-    padding: 18px 0px 18px 40px;
+    width: 8.75rem;
+    margin: 1.875rem auto;
+    padding: 1.125rem 0rem 1.125rem 2.5rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;
@@ -150,7 +155,7 @@ color:var(--cor-branco);
 
 .boxlinks4 {
 
-    margin: 67px auto;
+    margin: 4.1875rem auto;
     align-items: center ;
     align-content: center;
     justify-content: center;
@@ -164,7 +169,7 @@ color:var(--cor-branco);
     text-decoration: none;
     color: var(--cor-branco);
     list-style: none;
-    padding: 12px;
-    margin: 5px auto;
+    padding: 0.75rem;
+    margin: 0.3125rem auto;
     text-align: center;
 }

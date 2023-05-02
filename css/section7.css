@@ -45,8 +45,8 @@ color: var(--cor-branco);
     gap: 0.625rem;
     align-items: center;
 
-    width: 130px;
-    padding: 20px 0px 20px 40px;
+    width: 8.125rem;
+    padding: 1.25rem 0rem 1.25rem 1.25rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;

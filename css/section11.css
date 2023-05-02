@@ -60,11 +60,11 @@ padding: 40px 0px 15px 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 19px;
+    font-size: 1.1875rem;
     line-height: 125%;
     letter-spacing: -0.02em;
     align-self: stretch;
-    padding-bottom: 10px;
+    padding-bottom: 0.625rem;
 }
 
 .comentarios2 {
@@ -72,7 +72,7 @@ padding: 40px 0px 15px 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 1.1875rem;
     line-height: 167%;
     
     letter-spacing: -0.02em;

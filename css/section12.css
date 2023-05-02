@@ -38,9 +38,9 @@ color: var(--cor-branco);
     flex-direction: row;
     gap: 0.625rem;
     align-items: center;
-    margin: 38px auto 40px 5px;
-    width: 160px;
-    padding: 17px 25px 17px 30px;
+    margin: 2.375rem auto 2.5rem 0.3125rem;
+    width: 10rem;
+    padding: 1.0625rem 1.5625rem 1.0625rem 1.875rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;
@@ -61,16 +61,16 @@ color:var(--cor-branco);
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 18px;
-line-height: 30px;
+font-size: 1.125rem;
+line-height: 1.875rem;
 
 }
 
 .box-logos {
 
     display: flex;
-    margin: 35px 0px 0px 0px;
-    gap: 40px;
+    margin: 2.1875rem 0rem 0rem 0rem;
+    gap: 2.5rem;
 
 
 }
