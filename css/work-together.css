@@ -1,13 +1,12 @@
-.section3 {
+.work-together {
 
     width: auto;
     background-color: var(--cor-branco);
     padding: 0 1rem;
 }
 
-.section3 > h4 {
+.work-together > h4 {
 
-    padding-top: 4.9375rem;
     height: 4.875rem;
     font-style: normal;
     font-weight: 700;
@@ -15,7 +14,7 @@
     line-height: 2.75rem;
     text-align: center;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile/imgsection3/Element.png);
+    background-image: url(../img/Mobile/img-work-together/Element.png);
     background-repeat: no-repeat;
     background-size:  61%;
     background-position-y: 76%;
@@ -23,7 +22,7 @@
     color:var(--cor-titulos);
 }
 
-.section3 > p {
+.work-together > p {
 
     font-style: normal;
     font-weight: 400;
@@ -34,7 +33,7 @@
     color: #212529;
 }
 
-.button1_section3 {
+.button1_work-together {
 
     display: flex;
     flex-direction: row;
@@ -51,13 +50,13 @@
     text-decoration: none;
     padding: 1.25rem 0rem 1.25rem 2.5rem;
     width: 9rem;
-    margin: 5rem auto 0rem auto;
+    margin: 3.75rem auto;
 
 }
 
-.section3 > img {
+.work-together > img {
 
 display: flex;
-margin: 3.75rem auto 0 auto;
+margin: 5rem auto;
 
 }
