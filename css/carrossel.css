@@ -1,0 +1,21 @@
+.swiper-slide  {
+
+margin: 0rem auto 5rem auto;
+padding: 0 auto 5rem auto;
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+
+display: none;
+}
+
+.swiper-pagination {
+
+    --swiper-pagination-bullet-size: 12px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+
+
+}
+
