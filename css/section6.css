@@ -2,7 +2,8 @@
 
     width: auto;
     background-color: var(--cor-branco);
-    padding: 0 0.9rem;
+    padding: 0 0.9rem ;
+    margin-bottom: 4rem;
 }
 
 .section6 > h4 {
@@ -204,11 +205,9 @@ margin-bottom: 1.25rem;
 
     display: flex;
     align-items: center;
-
 }
 
 .box-img > img {
-
 
 margin: 5.625rem auto;
 
