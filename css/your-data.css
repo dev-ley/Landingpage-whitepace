@@ -1,19 +1,17 @@
-.section8 {
+.your-data {
 
     background-color: var(--cor-branco);
     width: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 80px;
+    padding: 5rem 1rem;
 
 }
 
-.section8 > img {
+.your-data > img {
 
 width: 100%;
-margin: 0 auto;
+margin: 0rem auto 3rem auto;
 }
-.section8 > h4 {
+.your-data > h4 {
 
     color: var(--cor-titulos);
     text-align: center;
@@ -21,17 +19,16 @@ margin: 0 auto;
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    padding-top: 4.2rem;
-    background-image: url(../img/Mobile/imgsection8/Vector.svg);
+    background-image: url(../img/Mobile/img-your-data/Vector.svg);
     background-repeat: no-repeat;
     background-size: 67%;
     background-position-x: 113%;
     background-position-y: 104.5%;
-    height: 3.4rem;
+    height: 4rem;
 
 }
 
-.section8 > p {
+.your-data > p {
 
 font-style: normal;
 font-weight: 400;
@@ -42,7 +39,7 @@ letter-spacing: -0.02em;
 color: black;
 }
 
-.button1_section8 {
+.button1_your-data {
 
     display: flex;
     flex-direction: row;

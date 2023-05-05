@@ -1,13 +1,12 @@
-.section9 {
+.our-sponsors {
 
 align-items: center;
 
 }
 
 
-.section9 > h4 {
+.our-sponsors > h4 {
 
-    padding-top: 4.9375rem;
     height: 3.8rem;
     font-style: normal;
     font-weight: 700;
@@ -15,7 +14,6 @@ align-items: center;
     line-height: 2.75rem;
     text-align: center;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile/imgsection2/Element2.png);
     background-repeat: no-repeat;
     background-size:  67%;
     background-position-y: 106%;
@@ -23,7 +21,7 @@ align-items: center;
     color:var(--cor-titulos)
 }
 
-.section9 > img {
+.our-sponsors > img {
 
     display: block;
     align-items: center;

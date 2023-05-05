@@ -1,55 +1,49 @@
-.section10 {
+.your-work-everywhere-you-are {
 
     background-color: var(--cor-principal);
     width: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 2.5rem;
-    background-image: url(../img/Mobile/imgsection10/Element.svg);
-    background-repeat: no-repeat;
-    
+    padding: 6.25rem 1rem 5rem 1rem;
+
 }
 
-.section10 > img {
-
-width: 100%;
-margin: 0 auto;
-}
-.section10 > h4 {
+.your-work-everywhere-you-are > h4 {
 
     color: var(--cor-branco);
-    text-align: center;
-    font-size: 2.25rem;
+    text-align: start;
+    font-size: 2.40rem;
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    padding-top: 5.8rem;
+    background-image: url(../img/Mobile/img-your-work-everywhere-you-are/Vector.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 85%;
+    background-position-y: 93.5%;
+    height: 10rem;
 
 }
 
-.section10 > p {
+.your-work-everywhere-you-are > p {
 
 font-style: normal;
-font-weight: 400;
-font-size: 1.1rem;
+font-weight: 300;
+font-size: 1.150rem;
 line-height: 167%;
-text-align: center;
+text-align: start;
 letter-spacing: -0.02em;
 color: var(--cor-branco);
-padding-top: 2rem;
 }
 
-.button1_section10 {
+.button1_your-work-everywhere-you-are {
 
     display: flex;
     flex-direction: row;
-    margin: 4rem auto 4rem auto;
+
     gap: 0.625rem;
     align-items: center;
-
-    width: 9.0625rem;
-    padding: 1.25rem 0rem 1.25rem 2.5rem;
+    margin: 4rem 0rem;
+    width: 8.125rem;
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;

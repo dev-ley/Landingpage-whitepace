@@ -1,52 +1,50 @@
-.section7 {
+.work-with-your-favorite-apps {
 
     background-color: var(--cor-principal);
     width: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 8rem;
-
+    padding: 5rem 1rem 2rem 1rem;
+    background-image: url(../img/Mobile/img-work-with-your-favorite-apps/Element.png);
+    background-repeat: no-repeat;
+    
 }
 
-.section7 > h4 {
+.work-with-your-favorite-apps > img {
+
+margin: 0rem auto;
+}
+.work-with-your-favorite-apps > h4 {
 
     color: var(--cor-branco);
-    text-align: start;
+    text-align: center;
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    padding-top: 6rem;
-    background-image: url(../img/Mobile/imgsection7/Vector.svg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: 85%;
-    background-position-y: 93.5%;
-    height: 10rem;
-
+    padding-top: 5rem;
 }
 
-.section7 > p {
+.work-with-your-favorite-apps > p {
 
 font-style: normal;
-font-weight: 300;
-font-size: 1.150rem;
+font-weight: 400;
+font-size: 1.1rem;
 line-height: 167%;
-text-align: start;
+text-align: center;
 letter-spacing: -0.02em;
 color: var(--cor-branco);
+padding-top: 2rem;
 }
 
-.button1_section7 {
+.button1_work-with-your-favorite-apps {
 
     display: flex;
     flex-direction: row;
-    margin: 4.3rem 0 0 0;
+    margin: 4rem auto 4rem auto;
     gap: 0.625rem;
     align-items: center;
 
-    width: 8.125rem;
-    padding: 1.25rem 0rem 1.25rem 1.25rem;
+    width: 9.0625rem;
+    padding: 1.25rem 0rem 1.25rem 2.5rem;
     background: #4F9CF9;
     color: var(--cor-branco);
     border-radius: 0.5rem;
