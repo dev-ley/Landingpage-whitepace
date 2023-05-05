@@ -14,12 +14,21 @@
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile/img-your-work-everywhere-you-are/Vector.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: 85%;
-    background-position-y: 93.5%;
     height: 10rem;
+
+}
+
+.your-work-everywhere-you-are > h4 > span {
+
+    display: inline-flex;
+    background-image: url(../img/Mobile/img-your-work-everywhere-you-are/Element.png);
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-y: 39px;
+    background-position-x: 0px;
+    height: 5rem;
+    width: 200px;
 
 }
 

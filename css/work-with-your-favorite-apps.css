@@ -5,12 +5,16 @@
     padding: 5rem 1rem 2rem 1rem;
     background-image: url(../img/Mobile/img-work-with-your-favorite-apps/Element.png);
     background-repeat: no-repeat;
+    background-position-y: 18%;
+    text-align: center;
+
     
 }
 
 .work-with-your-favorite-apps > img {
 
-margin: 0rem auto;
+
+
 }
 .work-with-your-favorite-apps > h4 {
 

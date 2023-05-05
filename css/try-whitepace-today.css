@@ -1,14 +1,12 @@
-.section12{
+.try-whitepace-today{
 
     background-color: var(--cor-principal);
     width: auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 8rem;
+    padding: 6.25rem 1rem 2rem 1rem;
 
 }
 
-.section12 > h4 {
+.try-whitepace-today > h4 {
 
     color: var(--cor-branco);
     text-align: start;
@@ -16,12 +14,11 @@
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    padding-top: 6rem;
     height: 7.5rem;
 
 }
 
-.section12 > p {
+.try-whitepace-today > p {
 
 font-style: normal;
 font-weight: 300;
@@ -32,7 +29,7 @@ letter-spacing: -0.02em;
 color: var(--cor-branco);
 }
 
-.button1_section12 {
+.button1_try-whitepace-today {
 
     display: flex;
     flex-direction: row;

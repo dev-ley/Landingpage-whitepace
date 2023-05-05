@@ -2,8 +2,8 @@
 
 @import url(cabecalho.css); @import url(get-more-done.css); @import url(project-management.css);
 @import url(work-together.css); @import url(use-as-extension.css); @import url(customise-it-to-your-needs.css);
-@import url(choose-your-plan.css); @import url(your-work-everywhere-you-are.css); @import url(your-data.css); @import url(our-sponsors.css); @import url(work-with-your-favorite-apps.css); @import url(section11.css);
-@import url(section12.css); @import url(section13.css); @import url(footer.css); @import url(carrossel.css);
+@import url(choose-your-plan.css); @import url(your-work-everywhere-you-are.css); @import url(your-data.css); @import url(our-sponsors.css); @import url(work-with-your-favorite-apps.css); @import url(what-our-clients-says.css);
+@import url(try-whitepace-today.css); @import url(footer.css); @import url(carrossel.css);
 
 
 
@@ -14,11 +14,12 @@
 --cor-branco: #ffffff;
 --cor-titulos: #212529;
 --cor-destaque: #FFE492;
+--cor-box: #4F9CF9;
 --font-principal: 'Inter';
 
 }
 
-* {
+* { 
     margin: 0;
     padding: 0;
     font-family: var(--font-principal);

@@ -31,12 +31,19 @@
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile);
-    background-repeat: no-repeat;
-    background-size: 55%;
-    background-position-x: 110%;
-    background-position-y: 90%;
     height: 8rem;
+}
+
+.customise-it-to-your-needs > h4 > span {
+
+    display: inline-flex;
+    background-image: url(../img/Mobile/img-customise-it-to-your-needs/Element.png);
+    background-repeat: no-repeat;
+    background-position-y: 20px;
+    background-position-x: 90px;
+    height: 5rem;
+    width: 230px;
+
 }
 
 .customise-it-to-your-needs > p {

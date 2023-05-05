@@ -14,14 +14,19 @@
     line-height: 2.75rem;
     text-align: center;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile/img-work-together/Element.png);
-    background-repeat: no-repeat;
-    background-size:  61%;
-    background-position-y: 76%;
-    background-position-x: 109%;
     color:var(--cor-titulos);
 }
 
+.work-together > h4 > span {
+
+    display: inline-flex;
+    background-image: url(../img/Mobile/img-project-management/Element2.png);
+    background-repeat: no-repeat;
+    background-position-y: 33px;
+    background-size: 120%;
+    height: 4rem;
+
+}
 .work-together > p {
 
     font-style: normal;

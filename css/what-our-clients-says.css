@@ -1,42 +1,55 @@
 
-.section11 {
+.what-our-clients-says {
 
     width: auto;
     background-color: var(--cor-branco);
-    padding: 0 0.9rem 5rem 0;
+    padding: 5rem 1rem;
+    
 }
 
-.section11 > h4 {
+.what-our-clients-says > h4 {
 
-    padding-top: 7.5rem;
-    height: 7.6rem;
+    height: 5rem;
     font-style: normal;
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 2.75rem;
     text-align: center;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile/imgsection6/Vector.svg);
-    background-repeat: no-repeat;
-    background-size:  37%;
-    background-position-y: 85%;
-    background-position-x: 42%;
+
     color:var(--cor-titulos);
+    margin: 1.5rem 0;
+}
+
+.what-our-clients-says > h4 > span {
+
+
+    background-image: url(../img/Mobile/img-what-our-clients-says/Element.png);
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+    background-position-x: 25px;
+    padding-right: 9px;
+
 }
 
 .box-comentarios {
 
-
+    height: 28.62625rem;
     margin: 25px auto;
-    background-color: var(--cor-branco);
     border-radius: 10px;
     box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);  
     padding: 10px 5px 13px 15px;
-    width: 250px;
+    width: 255px;
+    margin: 3.75rem auto 1rem auto;
 
 
 }
 
+.box-comentarios > hr {
+
+color: black
+
+}
 .comentarios1 {
 
     margin: 30px auto;
@@ -79,3 +92,26 @@ padding: 40px 0px 15px 10px;
 
 
 }
+
+.swiper-slide2  {
+
+    margin: 0rem auto 2rem auto;
+    padding: 0 auto 0rem auto;
+    
+    }
+    
+.swiper-button-prev, .swiper-button-next {
+
+    display: none;
+}
+
+.swiper-pagination {
+
+--swiper-pagination-bullet-size: 12px;
+--swiper-pagination-bullet-inactive-color: #000;
+--swiper-pagination-bullet-inactive-opacity: 0.2;
+
+
+}
+
+        

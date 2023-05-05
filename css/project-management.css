@@ -3,9 +3,7 @@
     width: auto;
     background-color: var(--cor-branco);
     padding: 5rem 1rem;
-    background-image: url(../img/Mobile/imgproject-management/Element3.png);
-    background-repeat: no-repeat;
-    background-position-y: 7%;
+
 }
 
 .project-management > h4 {
@@ -23,6 +21,16 @@
     background-position-y: 104%;
     background-position-x: 170%;
     color:var(--cor-titulos)
+}
+
+.project-management > h4 > span {
+
+    display: inline-flex;
+    background-image: url(../img/Mobile/img-project-management/Element2.png);
+    background-repeat: no-repeat;
+    background-position-y: 26px;
+    height: 5rem;
+
 }
 
 .project-management > p {

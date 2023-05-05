@@ -14,11 +14,20 @@ align-items: center;
     line-height: 2.75rem;
     text-align: center;
     letter-spacing: -0.02em;
-    background-repeat: no-repeat;
-    background-size:  67%;
-    background-position-y: 106%;
-    background-position-x: 105%;
     color:var(--cor-titulos)
+}
+
+.our-sponsors > h4 > span {
+
+background-image: url(../img/Mobile/img-our-sponsors/Element.png);
+background-repeat: no-repeat;
+background-position-y: 35px;
+height: 6rem;
+padding-bottom: 3rem;
+padding-left: 0.5rem;
+padding-right: 1rem;
+
+
 }
 
 .our-sponsors > img {

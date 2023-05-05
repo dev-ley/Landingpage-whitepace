@@ -19,14 +19,25 @@ margin: 0rem auto 3rem auto;
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile/img-your-data/Vector.svg);
-    background-repeat: no-repeat;
-    background-size: 67%;
-    background-position-x: 113%;
-    background-position-y: 104.5%;
+
     height: 4rem;
 
 }
+
+.your-data > h4 > span {
+
+    display: inline-flex;
+    background-image: url(../img/Mobile/img-your-data/Element.png);
+    background-repeat: no-repeat;
+    background-size: 12.5rem;
+    background-position-x: -10px;
+    background-position-y: 32px;
+    height: 5rem;
+    padding-right: 20px;
+    padding-left: 5px;
+
+}
+
 
 .your-data > p {
 

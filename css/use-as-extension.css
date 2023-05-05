@@ -16,12 +16,22 @@
     font-weight: 700;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
-    background-image: url(../img/Mobile/img-use-as-extension/Vector.png);
     background-repeat: no-repeat;
-    background-size: 50%;
     background-position-x: 82%;
     background-position-y: 95%;
     height: 6.8rem;
+}
+
+.use-as-extension > h4 > span {
+
+    display: inline-flex;
+    background-image: url(../img/Mobile/img-use-as-extension/Vector.png);
+    background-repeat: no-repeat;
+    background-position-y: 26px;
+    background-position-x: 67px;
+    height: 5rem;
+    width: 200px;
+
 }
 
 .use-as-extension > p {
