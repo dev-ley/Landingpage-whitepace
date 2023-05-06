@@ -47,6 +47,12 @@
     box-shadow: 0px 3px 2px 1px rgba(0, 0, 0, 0.324);
 }
 
+.lista-menu > a > img {
+
+display: none;
+}
+
+
 .conteiner__botao {
 
     display: none;
@@ -71,3 +77,111 @@ padding: 1rem;
 
 }
 
+
+
+.lista-menu > .button1desk {
+
+    color: var(--cor-destaque);
+    
+}
+
+.lista-menu > .button2desk {
+
+    color: var(--cor-box) ;
+    padding: 18.5px 40px;
+
+    
+}
+@media screen and (min-width:1152px) {
+
+    .cabecalho {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 32px;
+        background-color: var(--cor-principal);
+        position: relative;
+   
+
+    }
+
+    .logocabecalho {
+
+        width: 37px;
+        height: 29px;
+
+    }
+    .conteiner_cabecalho > h1 {
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+
+    }
+
+    .conteiner_cabecalho {
+        display: flex;
+        color: var(--cor-branco);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+        align-items: center;
+       
+    }
+
+    .icone-menu {
+
+        display: none;
+    }
+
+    .lista-menu {
+
+        display: flex;
+        position: relative;
+        width: 100%;
+        background-color: var(--cor-principal);
+        text-align: center;
+        align-items: center;
+
+        list-style: none;
+        padding: 0rem 0rem 0rem 0rem;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.324);
+        font-family: 'DM Sans', sans-serif;        
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+
+
+    }
+
+
+    .lista-menu > .button1desk {
+
+        color: var(--cor-principal);
+        background-color: var(--cor-destaque) ;
+        padding: 18.5px 40px;
+        border-radius: 8px;     
+        
+    }
+    .lista-menu > .button2desk {
+
+        background-color: var(--cor-box);
+        color: var(--cor-) ;
+        padding: 18.5px 40px;
+        border-radius: 8px;     
+
+    }
+
+    .lista-menu > a > img {
+
+        display: inline-block;
+    }
+        
+
+
+}
