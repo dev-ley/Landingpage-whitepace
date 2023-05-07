@@ -68,3 +68,93 @@ color: var(--cor-branco);
     line-height: 167%;
     letter-spacing: -0.02em;
 }
+
+@media screen and (min-width:1152px) {
+
+    .get-more-done {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        padding: 6.25rem 2rem;
+        background-image: url(../img/Desktop/img-get-more-done/Element.png);
+        background-size: 100%;
+        background-position: 0px;
+        background-position-y: 160px;
+        background-repeat: no-repeat;
+        height: 450px;
+
+
+    }
+
+    .get-more-done > h4 {
+
+        color: var(--cor-branco);
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;    
+        line-height: 77px;
+        letter-spacing: -0.02em;
+        text-align: start;
+        width: 50vw;
+        padding: 2.9375rem 0rem 1.5rem 0rem;
+
+    }
+    
+    .get-more-done > p {
+
+        padding-top: 1.5625rem;
+        height: 4rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: start;
+        letter-spacing: -0.02em;
+        color: var(--cor-branco);
+        width: 50vw;
+        padding-bottom: 50px;
+        
+        }
+
+    .button_get-more-done {
+
+
+        gap: 0.625rem;
+        align-items: center;
+        text-align: center;
+        background: #4F9CF9;
+        color: var(--cor-branco);
+        border-radius: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        padding: 0rem 0rem 0rem 0rem;
+        width: 219px;
+        height: 63px;
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .button2_get-more-done {
+
+   
+        gap: 0.625rem;
+        width: 45vw;
+        height: 456.39px;
+        background: var(--cor-secundaria);
+        color: var(--cor-branco);
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        margin: 0px 0px;
+    }
+}
