@@ -57,8 +57,10 @@ color: var(--cor-branco);
     display: flex;
     flex-direction: row;
     gap: 0.625rem;
-    width: 100%;
+    width: auto;
+    max-width: 500px;
     height: 11.9375rem;
+    margin: 0 auto;
     background: var(--cor-secundaria);
     color: var(--cor-branco);
     align-items: center;
@@ -156,5 +158,7 @@ color: var(--cor-branco);
         line-height: 167%;
         letter-spacing: -0.02em;
         margin: 0px 0px;
+        max-width: none;
+
     }
 }
