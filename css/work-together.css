@@ -59,9 +59,110 @@
 
 }
 
-.work-together > img {
+.imgmobile2 {
+
+display: none;
+margin: 5rem auto;
+
+
+}
+
+.imgmobile1 {
 
 display: flex;
 margin: 5rem auto;
 
+}
+
+@media screen and (min-width: 1152px) {
+
+    .work-together {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        background-color: var(--cor-branco);
+        padding: 0rem 2rem;
+        height: 750px;
+        justify-items: center;
+        justify-content: center;
+
+    }
+    
+    .work-together > h4 {
+    
+        height: 7rem;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        text-align: start;
+        letter-spacing: -0.02em;
+        color:var(--cor-titulos);
+        width: auto;
+        
+    }
+    
+    .work-together > h4 > span {
+    
+        display: inline-flex;
+        background-image: url(../img/Mobile/img-project-management/Element2.png);
+        background-repeat: no-repeat;
+        background-position-y: 33px;
+        background-size: 20%;
+        height: 4rem;
+        width: auto;
+    
+    }
+    .work-together > p {
+    
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        text-align: start;
+        letter-spacing: -0.02em;
+        color: #212529;
+        width: 42vw;
+    }
+    
+    .button1_work-together {
+    
+        display: flex;
+        flex-direction: row;
+        gap: 0.625rem;
+        align-items: center;
+        background: #4F9CF9;
+        color: var(--cor-branco);
+        border-radius: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        padding: 1.25rem 0rem 1.25rem 2.5rem;
+        width: 9rem;
+        margin: 3.75rem 0;
+    
+    }
+    
+    .imgmobile2 {
+
+        display: flex;
+        width: 41vw;
+        margin: 3rem auto 10rem auto;
+        padding-right: 120px;
+        
+        
+        }
+        
+        .imgmobile1 {
+        
+        display: none;
+        margin: 5rem auto;
+        
+        }
+    
 }
