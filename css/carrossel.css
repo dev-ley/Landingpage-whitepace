@@ -1,7 +1,20 @@
+.swiper {
+
+
+    
+}
+
+.swiper-wrapper {
+
+align-items: center;
+}
+
 .swiper-slide  {
 
 margin: 0rem auto 5rem auto;
 padding: 0 auto 5rem auto;
+justify-content: center;
+align-items: center;
 
 }
 

@@ -81,3 +81,109 @@ color: var(--cor-titulos);
     text-decoration: none;
     text-align: center;
 }
+
+@media screen and (min-width:1152px) {
+
+    .customise-it-to-your-needs {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: var(--cor-branco);
+        width: auto;
+        height: 550px;
+        padding: 8.75rem 2rem;
+        justify-content: center;    
+        height: 550px;   
+
+    }
+    
+    .button2_customise-it-to-your-needs {
+    
+        display: flex;
+        flex-direction: row;
+        gap: 0.625rem;
+        width: 670px;
+        height: 499.3px;
+        background: var(--cor-secundaria);
+        color: var(--cor-branco);
+        align-items: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        margin-bottom: 3.75rem;
+    }
+    
+    .customise-it-to-your-needs > h4 {
+    
+        color: var(--cor-titulos);
+        text-align: start;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 87px;
+        letter-spacing: -0.02em;
+        width: 646px;
+        height: 174px;
+        
+
+    }
+    
+    .customise-it-to-your-needs > h4 > span {
+    
+        display: inline-flex;
+        background-image: url(../img/Mobile/img-customise-it-to-your-needs/Element.png);
+        background-repeat: no-repeat;
+        background-position-y: 20px;
+        background-position-x: 90px;
+        width: 646px;
+        height: 110px;
+    
+    }
+    
+    .customise-it-to-your-needs > p {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: start;
+    letter-spacing: -0.02em;
+    color: var(--cor-titulos);
+    width: 646px;
+    height: 90px;
+    padding-top: 24px;
+    
+    }
+    
+    .button1_customise-it-to-your-needs {
+    
+        display: flex;
+        margin-top: 4rem;
+        flex-direction: row;
+        margin: 3.7rem 0;
+        gap: 0.625rem;
+        align-items: center;
+    
+        width: 7.5rem;
+        padding: 1.25rem 0rem 1.25rem 2.5rem;
+        background: #4F9CF9;
+        color: var(--cor-branco);
+        border-radius: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        text-align: center;
+    }
+
+
+
+
+
+    
+}

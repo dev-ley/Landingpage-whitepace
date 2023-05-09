@@ -36,3 +36,57 @@ padding-right: 1rem;
     align-items: center;
     margin: 5.8rem auto;
 }
+
+@media screen  and (min-width:1152px) {
+
+    .our-sponsors {
+
+        padding: 3rem 2rem 0rem 2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 520px;
+        border: 1px solid red;
+        }
+        
+        
+        .our-sponsors > h4 {
+        
+
+        width: 100vw;
+        height: 87px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color:var(--cor-titulos)
+
+        }
+        
+        .our-sponsors > h4 > span {
+        
+        background-image: url(../img/Mobile/img-our-sponsors/Element.png);
+        background-repeat: no-repeat;
+        background-position-y: 35px;
+        height: 0rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        
+        
+        }
+        
+        .our-sponsors > img {
+        
+            display: flex;
+            align-items: center;
+            margin: 0rem auto;
+            width: 20%;
+        }
+
+    
+}

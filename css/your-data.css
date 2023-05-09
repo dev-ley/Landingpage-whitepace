@@ -73,3 +73,111 @@ color: black;
 
 }
 
+.imgdesk-yourdate {
+
+    display: none;
+}
+
+
+@media screen and (min-width:1152px){
+
+    .your-data {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background-color: var(--cor-branco);
+        width: auto;
+        height: 520px;
+        padding: 5rem 2rem;
+        border: 1px solid black;
+    
+    }
+
+    .imgdesk-yourdate {
+        display: flex;
+    }
+
+    .imgmobile-yourdate {
+        display: none;
+    }
+    
+
+    .your-data > h4 {
+    
+        color: var(--cor-titulos);
+        width: 695px;
+        height: 87px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        letter-spacing: -0.02em;
+        height: 4rem;
+        text-align: start;
+        margin: 5rem 0rem 1.5rem 0rem;
+
+    
+    }
+    
+    .your-data > h4 > span {
+    
+        display: inline-flex;
+        background-image: url(../img/Mobile/img-your-data/Element.png);
+        background-repeat: no-repeat;
+        background-size: 12.5rem;
+        background-position-x: -10px;
+        background-position-y: 32px;
+        height: 0rem;
+        padding-right: 20px;
+        padding-left: 5px;
+    
+    }
+    
+    
+    .your-data > p {
+    
+        width: 695px;
+        height: 90px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        color: black;
+        text-align: start;
+        margin: 1.2rem 0rem 3.75rem 0rem;
+
+    }
+    
+    .button1_your-data {
+    
+        display: flex;
+        flex-direction: row;
+        margin: 0rem 0;
+        gap: 0.625rem;
+        align-items: center;
+    
+        width: 9.0625rem;
+        padding: 1.25rem 0rem 1.25rem 2.5rem;
+        background: #4F9CF9;
+        color: var(--cor-branco);
+        border-radius: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        text-align: center;
+    
+    }
+
+    .your-data > img {
+        width: 50vw;
+        margin: auto;
+        }
+    
+}
