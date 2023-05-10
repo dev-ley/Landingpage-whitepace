@@ -13,7 +13,7 @@
 
 .work-with-your-favorite-apps > img {
 
-
+margin: 0 auto;
 
 }
 .work-with-your-favorite-apps > h4 {
@@ -62,3 +62,113 @@ padding-top: 2rem;
 
 }
 
+.imgdeskapp {
+
+display: none;
+
+
+}
+
+.imgmobileapp {
+
+    display: flex;
+}
+
+@media screen and (min-width:1152px) {
+    
+
+    .imgdeskapp {
+
+        display: flex;
+
+
+    }
+
+    .imgmobileapp {
+
+        display: none;
+    }
+
+    .work-with-your-favorite-apps {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: var(--cor-principal);
+        width: auto;
+        height: 660px;
+        padding: 5rem 2rem 2rem 2rem;
+        background-image: url();
+        background-repeat: no-repeat;
+        background-position-y: 18%;
+        text-align: start;
+        margin: 0 auto;
+        
+    
+        
+    }
+    
+    .work-with-your-favorite-apps > img {
+    
+        width: 40vw;
+        height: 470.8px;
+        padding: ;    
+    }
+    .work-with-your-favorite-apps > h4 {
+    
+        display: flex;
+        flex-wrap: wrap;
+        width: 49vw;
+        height: 261px;
+        color: var(--cor-branco);
+        text-align: start;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        letter-spacing: -0.02em;
+        padding-top: 5rem;
+    }
+    
+    .work-with-your-favorite-apps > p {
+    
+        display: flex;
+        width: 50vw;
+        height: 60px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 167%;
+        text-align: start;
+        letter-spacing: -0.02em;
+        color: var(--cor-branco);
+        padding-top: 2rem;
+    }
+    
+    .button1_work-with-your-favorite-apps {
+    
+        display: flex;
+        flex-direction: row;
+        margin: 4rem 0;
+        gap: 0.625rem;
+        align-items: center;
+    
+        width: 9.0625rem;
+        padding: 1.25rem 0rem 1.25rem 2.5rem;
+        background: #4F9CF9;
+        color: var(--cor-branco);
+        border-radius: 0.5rem;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        text-decoration: none;
+        text-align: center;
+    
+    }
+
+
+}

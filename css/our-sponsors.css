@@ -41,14 +41,14 @@ padding-right: 1rem;
 
     .our-sponsors {
 
-        padding: 3rem 2rem 0rem 2rem;
+        padding: 3.5rem 2rem 0rem 2rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        height: 520px;
-        border: 1px solid red;
-        }
+        height: 480px;
+
+    }
         
         
         .our-sponsors > h4 {
@@ -84,8 +84,9 @@ padding-right: 1rem;
         
             display: flex;
             align-items: center;
-            margin: 0rem auto;
-            width: 20%;
+            margin: 0rem auto 5rem auto;
+            height: 75px;
+
         }
 
     
