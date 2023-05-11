@@ -106,7 +106,7 @@ color: black;
     .your-data > h4 {
     
         color: var(--cor-titulos);
-        width: 695px;
+        width: 48vw;
         height: 87px;
         font-family: 'Inter';
         font-style: normal;
@@ -138,7 +138,7 @@ color: black;
     
     .your-data > p {
     
-        width: 695px;
+        width: 48vw;
         height: 90px;
         font-family: 'Inter';
         font-style: normal;
@@ -176,7 +176,7 @@ color: black;
     }
 
     .your-data > img {
-        width: 50vw;
+        width: 51%;
         margin: auto;
         }
     

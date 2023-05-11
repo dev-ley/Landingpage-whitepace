@@ -103,7 +103,7 @@ color: var(--cor-titulos);
         display: flex;
         flex-direction: row;
         gap: 0.625rem;
-        width: 670px;
+        width: 40vw;
         height: 499.3px;
         background: var(--cor-secundaria);
         color: var(--cor-branco);
