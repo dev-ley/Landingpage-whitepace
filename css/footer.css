@@ -148,7 +148,7 @@ color:var(--cor-branco);
 
 .boxlinks4 {
 
-    margin: 4.1875rem auto 0 auto;
+    margin: 0rem auto 0 auto;
     align-items: center ;
     align-content: center;
     justify-content: center;
@@ -170,12 +170,14 @@ color:var(--cor-branco);
 hr {
 
     margin: 0.5rem auto ;
+    width: 90%;
 }
 
 .footerimg {
     display: flex;
     background-color: var(--cor-principal);
     padding: 10px;
+    margin: 0 auto;
 }
 .box-footer {
 
@@ -184,6 +186,18 @@ hr {
     gap: 32px;
 }
 
+.finalfoot {
+
+    background-color: var(--cor-principal);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    margin: 0 auto;
+    padding: 15px;
+    align-items: center;
+    justify-items: center;
+}
 
 @media screen and (min-width: 1152px) {
 
@@ -193,7 +207,7 @@ hr {
         flex-direction: column;
         flex-wrap: wrap;
         width: auto;
-        height: 650px;
+        height: 300px;
         background-color: var(--cor-principal);
         padding: 4rem 2rem 0rem 2rem;
 
@@ -202,14 +216,14 @@ hr {
     
     .box-logoetitulo {
     
-        margin: 0rem 0rem;
+        margin: 2.5rem 0rem 0rem 0rem;
         display: flex;
         padding-bottom: 0.9375rem;
         text-align: start;
         align-items: center;
         gap: 10px;
-        justify-content: center;
-        width: 18vw;
+        justify-content: start;
+        width: auto;
     
     
     }
@@ -224,6 +238,7 @@ hr {
         line-height: 2.75rem;
         letter-spacing: -0.02em;
         gap: 1.875rem;
+        width: auto;
         
     
     
@@ -232,17 +247,12 @@ hr {
     .footer > p {
     
         width: 240px;
-        height: 120px;
-        
-        /* Paragraph/P2/Regular */
-        
+        height: 120px;  
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
-        /* or 167% */
-        
         letter-spacing: -0.02em;
         text-align: start;
 
@@ -251,29 +261,26 @@ hr {
     
     
     .boxlinks1 {
-        margin: 4.1875rem auto 0rem auto;
-        width: 18vw;
+        margin: 3rem  0rem ;
+        width: auto;
         text-align: start;
 
     }
     
     .boxlinks2 {
     
-        margin: 4.1875rem auto;
-        width: 18vw;
+        margin: 3rem  0rem ;
+        width: auto;
         text-align: start;
 
-    
     }
     
     .boxlinks3 {
     
-        margin: 4.1875rem auto;
-        width: 18vw;
+        margin: 3rem  0rem ;
+        width: auto;
         text-align: start;
 
-
-    
     }
     
     .boxlinks1 > a {
@@ -282,9 +289,11 @@ hr {
         text-decoration: none;
         color: var(--cor-branco);
         list-style: none;
-        padding: 0.6875rem;
+        padding: 0.5500rem;
         margin: 0 auto;
         text-align: start;
+        font-weight: 200;
+
     }
     
     
@@ -294,9 +303,10 @@ hr {
         text-decoration: none;
         color: var(--cor-branco);
         list-style: none;
-        padding: 0.6875rem;
-        margin: 0rem auto;
+        padding: 0.5500rem;
+        margin: 0 auto;
         text-align: start;
+        font-weight: 200;
         }
     
     .boxlinks3 > a {
@@ -314,7 +324,8 @@ hr {
     
     .ultimobloco > h4 {
     
-        margin: 0 auto 1.875rem auto;
+        margin: 2.7rem 0 1rem 0;
+        width: 255px;
         text-align: start;
         color: var(--cor-branco);
         font-style: normal;
@@ -325,26 +336,28 @@ hr {
     
     .ultimobloco > p {
     
-    margin: 0 auto;
+    margin: 0 0;
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 167%;
-    width: 12.5625rem;
+    width: 264px;
     text-align: start;
     letter-spacing: -0.02em;
-    
     color:var(--cor-branco);
+    }
+    .ultimobloco > p > br {
+
+        display: none;
     }
     
     .button1_footer {
     
         display: flex;
         flex-direction: row;
-        margin: 0 auto 0 auto;
         align-items: center;
         width: 8.75rem;
-        margin: 1.875rem auto;
+        margin: 0.875rem 0;
         padding: 1.125rem 0rem 1.125rem 2.5rem;
         background: #4F9CF9;
         color: var(--cor-branco);
@@ -359,13 +372,33 @@ hr {
     
     }
     
+
+    .finalfoot {
+
+        background-color: var(--cor-principal);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+        margin: 0 auto;
+        padding: 15px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    
     .boxlinks4 {
     
-        margin: 4.1875rem auto 0 auto;
-        align-items: center ;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0rem 0rem;
+        align-items: flex-start ;
         align-content: center;
-        justify-content: center;
+        justify-content: space-between;
         justify-items: center;
+        width: auto;
+        gap: 65px;
     
     }
     
@@ -382,7 +415,7 @@ hr {
     
     hr {
     
-        margin: 0.5rem auto ;
+        display: none ;
     }
     
     .footerimg {
@@ -393,14 +426,14 @@ hr {
     .box-footer {
     
         display: flex;
-        margin: 0 auto;
+        position: absolute;
+        right: 2rem;
+        margin: 0rem auto;
+        width: auto;
         gap: 32px;
+        justify-content: end;
+        align-items: center;
     }
 
-    .finalfoot {
 
-        display: flex;
-        align-content: space-between;
-        height: 5px;
-    }
 }
