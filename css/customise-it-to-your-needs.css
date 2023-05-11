@@ -167,7 +167,7 @@ color: var(--cor-titulos);
         margin: 3.7rem 0;
         gap: 0.625rem;
         align-items: center;
-    
+        max-width: none;
         width: 7.5rem;
         padding: 1.25rem 0rem 1.25rem 2.5rem;
         background: #4F9CF9;
