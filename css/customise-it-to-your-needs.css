@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: row;
     gap: 0.625rem;
-    width: 100%;
+    width: auto;
+    max-width: 500px;
     height: 13.41375rem;
     background: var(--cor-secundaria);
     color: var(--cor-branco);
@@ -20,7 +21,7 @@
     font-size: 1.125rem;
     line-height: 167%;
     letter-spacing: -0.02em;
-    margin-bottom: 3.75rem;
+    margin: 0 auto 3.75rem auto;
 }
 
 .customise-it-to-your-needs > h4 {
