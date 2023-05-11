@@ -423,6 +423,10 @@ hr {
         display: none ;
     }
     
+    .hrdesktop {
+    
+        display: flex ;
+    }
     .footerimg {
         display: flex;
         background-color: var(--cor-principal);
