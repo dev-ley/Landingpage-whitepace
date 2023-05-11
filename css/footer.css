@@ -173,6 +173,11 @@ hr {
     width: 90%;
 }
 
+.hrdesktop {
+    
+    display: none ;
+}
+
 .footerimg {
     display: flex;
     background-color: var(--cor-principal);
@@ -189,7 +194,7 @@ hr {
 .finalfoot {
 
     background-color: var(--cor-principal);
-    display: flex;
+    display: block;
     flex-direction: row;
     flex-wrap: wrap;
     width: auto;
@@ -413,7 +418,7 @@ hr {
         text-align: center;
     }
     
-    hr {
+    .hrmobile {
     
         display: none ;
     }
