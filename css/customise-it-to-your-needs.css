@@ -68,7 +68,7 @@ color: var(--cor-titulos);
     margin: 3.7rem auto;
     gap: 0.625rem;
     align-items: center;
-
+    max-width: 500px;
     width: 7.5rem;
     padding: 1.25rem 0rem 1.25rem 2.5rem;
     background: #4F9CF9;
@@ -104,7 +104,8 @@ color: var(--cor-titulos);
         display: flex;
         flex-direction: row;
         gap: 0.625rem;
-        width: 40vw;
+        width: 45vw;
+        max-width: none;
         height: 499.3px;
         background: var(--cor-secundaria);
         color: var(--cor-branco);
@@ -114,7 +115,7 @@ color: var(--cor-titulos);
         font-size: 1.125rem;
         line-height: 167%;
         letter-spacing: -0.02em;
-        margin-bottom: 3.75rem;
+        margin: 0 0 0rem 0;
     }
     
     .customise-it-to-your-needs > h4 {
