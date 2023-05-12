@@ -124,12 +124,13 @@ color: var(--cor-branco);
     .use-as-extension > h4 > span {
     
         display: inline-flex;
-        background-image: url(../img/Mobile/img-use-as-extension/Vector.png);
+        background-image: url(../img/Desktop/img-work-together/Element.png);
         background-repeat: no-repeat;
-        background-position-y: 26px;
-        background-position-x: 67px;
-        height: 5rem;
-        width: 200px;
+        background-position-y: 60px;
+        background-position-x: 0px;
+        background-size: 75%;
+        height: 6rem;
+        width: 450px;
     
     }
     

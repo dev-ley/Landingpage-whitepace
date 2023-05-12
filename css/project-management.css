@@ -94,6 +94,9 @@
         background-color: var(--cor-branco);
         padding: 8.75rem 2rem 0rem 2rem;
         height: 480px;
+        background-image: url(../img/Desktop/img-project-management/BACKGROUND.png);
+        background-size: 15%;
+        background-repeat: no-repeat;
     
     }
 
@@ -108,11 +111,8 @@
     letter-spacing: -0.02em;
     align-self: stretch;
     text-align: left;
-    background-image: url(../img/Mobile/imgproject-management/Element2.png);
-    background-repeat: no-repeat;
-    background-size:  95%;
-    background-position-y: 104%;
-    background-position-x: 170%;
+   
+
     color:var(--cor-titulos);
 }
 
@@ -120,10 +120,15 @@
 
 
     display: inline-flex;
-    background-image: url(../img/Mobile/img-project-management/Element2.png);
+    background-image: url(../img/Desktop/img-project-management/Element.png);
     background-repeat: no-repeat;
-    background-position-y: 26px;
-    height: 5rem;
+    background-size:  100%;
+    background-position-y: 65px;
+    background-position-x: 10px;
+    background-repeat: no-repeat;
+    height: 6.5rem;
+    width: 500px;
+    margin: 0 auto;
 
 }
 

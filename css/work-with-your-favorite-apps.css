@@ -78,14 +78,10 @@ display: none;
     
 
     .imgdeskapp {
-
         display: flex;
-
-
     }
 
     .imgmobileapp {
-
         display: none;
     }
 
@@ -104,16 +100,18 @@ display: none;
         background-position-y: 18%;
         text-align: start;
         margin: 0 auto;
-        
-    
-        
+        background-image: url(../img/Desktop/img-work-with-your-favorite-apps/Element.png);
+        background-size: 100%;
+        background-position-y: 50px;
+
     }
     
     .work-with-your-favorite-apps > img {
     
         width: 40vw;
         height: 470.8px;
-        padding: ;    
+        padding: 0;
+        margin-right: 5%;    
     }
     .work-with-your-favorite-apps > h4 {
     

@@ -144,7 +144,12 @@ padding: 40px 0px 15px 10px;
     font-size: 70px;
     line-height: 84px;    
     text-align: center;
-
+    background-image: url(../img/Mobile/img-what-our-clients-says/Element.png);
+    background-repeat: no-repeat;
+    background-size: 15% 54%;
+    background-position-y: 35px;
+    background-position-x: 800px;
+    padding-right: 9px;
     color:var(--cor-titulos);
     margin: 3rem auto 2rem  auto;
 }
@@ -152,11 +157,13 @@ padding: 40px 0px 15px 10px;
 .what-our-clients-says > h4 > span {
 
 
-    background-image: url(../img/Mobile/img-what-our-clients-says/Element.png);
+    background-image: none;
     background-repeat: no-repeat;
+    background-size: 100% 50%;
     background-position-y: 15px;
-    background-position-x: 25px;
+    background-position-x: 150px;
     padding-right: 9px;
+    width: 800px;
 
 }
 

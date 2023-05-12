@@ -32,6 +32,7 @@
     height: 5rem;
     padding-right: 20px;
     padding-left: 10px;
+    
 
 }
 
@@ -225,7 +226,18 @@ margin-bottom: 1.25rem;
 
 margin: 5.625rem auto;
 
+
+
 }
+
+    
+#tituloyourplandesk {
+    
+display: none;
+
+    }
+
+
 
 @media screen and (min-width:1152px) {
     
@@ -256,16 +268,47 @@ margin: 5.625rem auto;
     
     
         display: inline-flex;
-        background-image: url(../img/Mobile/img-choose-your-plan/Element.png);
+        background-image: url(../img/Desktop/img-work-together/Element.png);
         background-repeat: no-repeat;
-        background-size: 12.5rem;
-        background-position-x: 0px;
-        background-position-y: 32px;
-        height: 5rem;
+        background-size: 100%;
+        background-position-x: 20px;
+        background-position-y: 60px;
+
+        height: 6rem;
         padding-right: 20px;
         padding-left: 10px;
     
     }
+
+
+
+    #tituloyourplanmobile {
+    display: none;
+    }
+
+    #tituloyourplandesk {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    }
+
+    #tituloyourplandesk > h4 {
+    
+        height: 7.6rem;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-align: center;
+        letter-spacing: -0.02em;
+    
+        color:var(--cor-titulos);
+    } 
     
     
     .choose-your-plan > p {

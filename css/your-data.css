@@ -124,12 +124,13 @@ color: black;
     .your-data > h4 > span {
     
         display: inline-flex;
-        background-image: url(../img/Mobile/img-your-data/Element.png);
+        background-image: url(../img/Desktop/img-work-together/Element.png);
         background-repeat: no-repeat;
-        background-size: 12.5rem;
-        background-position-x: -10px;
-        background-position-y: 32px;
-        height: 0rem;
+        background-size: 85% 30%;
+        background-position-x: 20px;
+        background-position-y: 72px;
+        height: 7rem;
+        width: 400px;
         padding-right: 20px;
         padding-left: 5px;
     

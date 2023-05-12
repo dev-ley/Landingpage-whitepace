@@ -74,8 +74,10 @@ color: var(--cor-branco);
         width: auto;
         padding: 8.75rem 1rem 5rem 1rem;
         height: 370px;
-
-    
+        background-image: url(../img/Desktop/img-your-work-everywhere-you-are/BACKGROUND.png);
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+        background-position-y: -190px;
     }
     
     .your-work-everywhere-you-are > h4 {
@@ -98,11 +100,11 @@ color: var(--cor-branco);
         display: inline-flex;
         background-image: url(../img/Mobile/img-your-work-everywhere-you-are/Element.png);
         background-repeat: no-repeat;
-        background-size: 85%;
-        background-position-y: 39px;
-        background-position-x: 0px;
-        height: 5rem;
-        width: auto;
+        background-size: 110% 45%;
+        background-position-y: 70px;
+        background-position-x: -10px;
+        height: 6rem;
+        width: 260px;
 
     
     }

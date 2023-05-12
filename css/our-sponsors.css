@@ -69,10 +69,13 @@ padding-right: 1rem;
         
         .our-sponsors > h4 > span {
         
-        background-image: url(../img/Mobile/img-our-sponsors/Element.png);
+        display: inline-flex;
+        background-image: url(../img/Desktop/img-work-together/Element.png);
         background-repeat: no-repeat;
-        background-position-y: 35px;
-        height: 0rem;
+        background-size: 106% 38%;
+        background-position-x: 3px;
+        background-position-y: 68px;        
+        height: 7rem;
         padding-bottom: 0rem;
         padding-left: 0rem;
         padding-right: 0rem;

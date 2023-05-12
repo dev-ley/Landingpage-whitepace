@@ -135,11 +135,12 @@ color: var(--cor-titulos);
     .customise-it-to-your-needs > h4 > span {
     
         display: inline-flex;
-        background-image: url(../img/Mobile/img-customise-it-to-your-needs/Element.png);
+        background-image: url(../img/Desktop/img-work-together/Element.png);
         background-repeat: no-repeat;
-        background-position-y: 20px;
-        background-position-x: 90px;
-        width: 646px;
+        background-position-y: 40px;
+        background-position-x: 15px;
+        background-size: 78%;
+        width: 636px;
         height: 110px;
     
     }
