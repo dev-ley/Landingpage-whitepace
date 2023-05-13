@@ -3,7 +3,9 @@
     width: auto;
     background-color: var(--cor-branco);
     padding: 5rem 1rem;
-
+    background-image: url(../img/Mobile/img-project-management/Element.png);
+    background-repeat: no-repeat;
+    background-position-y: 40px;
 }
 
 .project-management > h4 {
