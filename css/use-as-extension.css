@@ -3,9 +3,6 @@
     background-color: var(--cor-principal);
     width: auto;
     padding: 5rem 1rem;
-
-    
-
 }
 
 .use-as-extension > h4 {
@@ -31,19 +28,18 @@
     background-position-x: 67px;
     height: 5rem;
     width: 200px;
-
 }
 
 .use-as-extension > p {
 
-padding-top: 0rem;
-font-style: normal;
-font-weight: 300;
-font-size: 1.140rem;
-line-height: 167%;
-text-align: center;
-letter-spacing: -0.02em;
-color: var(--cor-branco);
+    padding-top: 0rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.140rem;
+    line-height: 167%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--cor-branco);
 }
 
 .button1_use-as-extension {
@@ -53,7 +49,6 @@ color: var(--cor-branco);
     margin: 3.75rem auto;
     gap: 0.625rem;
     align-items: center;
-
     width: 7.5rem;
     padding: 1.25rem 0rem 1.25rem 2.5rem;
     background: #4F9CF9;
@@ -85,111 +80,57 @@ color: var(--cor-branco);
     font-size: 1.125rem;
     line-height: 167%;
     letter-spacing: -0.02em;
-    
 }
 
 @media screen and (min-width: 1152px) {
-
 
     .use-as-extension {
 
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: var(--cor-principal);
-        width: auto;
         padding: 7rem 2rem;
         height: 550px;
         justify-content: center;        
-    
     }
     
     .use-as-extension > h4 {
     
-        color: var(--cor-branco);
-        text-align: center;
-        font-size: 64px;    
-        font-weight: 700;
-        line-height: 77px;
+        font-size: 4rem;    
+        line-height: 4.8125rem;
         text-align: start;
-        letter-spacing: -0.02em;
         width: 50vw;
         padding: 5rem 0rem 1.5rem 0rem;
-
-        background-repeat: no-repeat;
-        background-position-x: 82%;
-        background-position-y: 95%;
     }
     
     .use-as-extension > h4 > span {
     
-        display: inline-flex;
         background-image: url(../img/Desktop/img-work-together/Element.png);
-        background-repeat: no-repeat;
         background-position-y: 60px;
         background-position-x: 0px;
         background-size: 75%;
         height: 6rem;
         width: 450px;
-    
     }
     
     .use-as-extension > p {
-    
-    padding-top: 0rem;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.140rem;
-    line-height: 167%;
-    text-align: start;
-    letter-spacing: -0.02em;
-    color: var(--cor-branco);
-    width: 43vw;
-
+        
+        font-weight: 400;
+        text-align: start;
+        width: 43vw;
     }
     
     .button1_use-as-extension {
     
-        display: flex;
-        flex-direction: row;
         margin: 3.75rem 0;
-        gap: 0.625rem;
-        align-items: center;
-    
-        width: 7.5rem;
-        padding: 1.25rem 0rem 1.25rem 2.5rem;
-        background: #4F9CF9;
-        color: var(--cor-branco);
-        border-radius: 0.5rem;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.125rem;
-        line-height: 167%;
-        letter-spacing: -0.02em;
-        text-decoration: none;
-        text-align: center;
     }
     
     .button2_use-as-extension {
     
-        display: flex;
-        flex-direction: row;
-        gap: 0.625rem;
         width: 45vw;
         height: 479px;
-        background: var(--cor-secundaria);
-        color: var(--cor-branco);
-        align-items: center;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.125rem;
-        line-height: 167%;
-        letter-spacing: -0.02em;
         margin: 0rem auto 0rem auto;
         max-width: none;
-
-
-        
     }
     
 }

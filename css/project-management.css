@@ -32,7 +32,6 @@
     background-repeat: no-repeat;
     background-position-y: 26px;
     height: 5rem;
-
 }
 
 .project-management > p {
@@ -47,6 +46,7 @@
 }
 
 .button1_project-management {
+
     display: flex;
     flex-direction: row;
     gap: 0.625rem;
@@ -63,7 +63,6 @@
     padding: 1.25rem 0rem 1.25rem 2.3rem;
     width: 10rem;
     margin: 4rem auto;
-
 }
 
 .button2_project-management {
@@ -92,99 +91,57 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        width: auto;
-        background-color: var(--cor-branco);
         padding: 8.75rem 2rem 0rem 2rem;
         height: 480px;
         background-image: url(../img/Desktop/img-project-management/BACKGROUND.png);
         background-size: 15%;
-        background-repeat: no-repeat;
     
     }
 
     .project-management > h4 {
 
-    height: 14rem;
-    width: 46vw;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 87px;
-    letter-spacing: -0.02em;
-    align-self: stretch;
-    text-align: left;
-   
+        height: 14rem;
+        width: 46vw;
+        font-size: 4.5rem;
+        line-height: 87px;
+        align-self: stretch;
+        text-align: left;   
+    }
 
-    color:var(--cor-titulos);
-}
+    .project-management > h4 > span {
 
-.project-management > h4 > span {
+        background-image: url(../img/Desktop/img-project-management/Element.png);
+        background-size:  100%;
+        background-position-y: 65px;
+        background-position-x: 10px;
+        height: 6.5rem;
+        width: 500px;
+        margin: 0 auto;
+    }
 
+    .project-management > p {
 
-    display: inline-flex;
-    background-image: url(../img/Desktop/img-project-management/Element.png);
-    background-repeat: no-repeat;
-    background-size:  100%;
-    background-position-y: 65px;
-    background-position-x: 10px;
-    background-repeat: no-repeat;
-    height: 6.5rem;
-    width: 500px;
-    margin: 0 auto;
+        width: 46vw;
+        padding: 0 5px 3rem 0;
+        text-align: start;
+    }
 
-}
+    .button1_project-management {
 
-.project-management > p {
+        text-align: center;
+        justify-content: center;
+        padding: 0rem 0rem 0rem 0rem;
+        width: 219px;
+        height: 63px;
+        margin: 0rem 0rem 0rem 0rem;
+    }
 
-    width: 46vw;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.125rem;
-    text-align: left;
-    line-height: 167%;
-    letter-spacing: -0.02em;
-    color: #212529;
-    padding: 0 5px 3rem 0;
-}
+    .button2_project-management {
 
-.button1_project-management {
-
-    gap: 0.625rem;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    background: #4F9CF9;
-    color: var(--cor-branco);
-    border-radius: 0.5rem;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 167%;
-    letter-spacing: -0.02em;
-    text-decoration: none;
-    padding: 0rem 0rem 0rem 0rem;
-    width: 219px;
-    height: 63px;
-    margin: 0rem 0rem 0rem 0rem;
-
-}
-
-.button2_project-management {
-
-        gap: 0.625rem;
         width: 49vw;
         height: 456.39px;
-        background: var(--cor-secundaria);
-        color: var(--cor-branco);
-        align-items: center;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.125rem;
-        line-height: 167%;
-        letter-spacing: -0.02em;
         margin: 0px 0px;
         max-width: none;
-}
+    }
 
-    
 }
