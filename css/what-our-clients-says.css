@@ -123,161 +123,174 @@ padding: 40px 0px 15px 10px;
 @media screen and (min-width:1152px) {
 
     
-.what-our-clients-says {
+    .what-our-clients-says {
 
-    width: auto;
-    background-color: var(--cor-branco);
-    padding: 5rem 1rem;
-    height: 780px;
-    margin: 2rem 2rem;
+        width: auto;
+        background-color: var(--cor-branco);
+        padding: 5rem 1rem;
+        height: 780px;
+        margin: 2rem 2rem;
+        
+    }
     
-}
-
-.what-our-clients-says > h4 {
-
-    height: 5rem;
-    width: auto;
-    height: 84px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 84px;    
-    text-align: center;
-    background-image: url(../img/Mobile/img-what-our-clients-says/Element.png);
-    background-repeat: no-repeat;
-    background-size: 13% 54%;
-    background-position-y: 35px;
-    background-position-x: 800px;
-    padding-right: 9px;
-    color:var(--cor-titulos);
-    margin: 3rem auto 2rem  auto;
-}
-
-.what-our-clients-says > h4 > span {
-
-
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
-    background-position-y: 15px;
-    background-position-x: 150px;
-    padding-right: 9px;
-    width: 800px;
-
-}
-
-.box-comentarios {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    height: 498.46px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);  
-    padding: 10px 5px 13px 5px;
-    width: 400px;
-    margin: 2rem auto 0rem auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-}
-
-.conteiner__comentario {
-
-
-
+    .what-our-clients-says > h4 {
     
-}
-
-.linha{
-
-font-size: 25px;
-margin: 0 auto;
-text-align: center;
-}
-.comentarios1 {
-
-    width: 391.67px;
-    height: 90px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;
-    letter-spacing: -0.02em;
-}
-
-.avatar {
-
-    display: flex;
-    padding: 50px 0px 15px 10px;
-
-}
-
-.nome-avatar {
-
-    display: inline-flex;
-    width: 246px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.1875rem;
-    line-height: 125%;
-    letter-spacing: -0.02em;
-    align-self: start;
-    padding-bottom: 0.625rem;
-}
-
-.comentarios2 {
-
-    display: inline-flex;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.1875rem;
-    line-height: 167%;
+        height: 5rem;
+        width: auto;
+        height: 84px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 84px;    
+        text-align: center;
+        background-image: url(../img/Mobile/img-what-our-clients-says/Element.png);
+        background-repeat: no-repeat;
+        background-size: 13% 54%;
+        background-position-y: 35px;
+        background-position-x: 800px;
+        padding-right: 9px;
+        color:var(--cor-titulos);
+        margin: 3rem auto 2rem  auto;
+    }
     
-    letter-spacing: -0.02em;
-
-
-}
-
-#comentario1 {
-
-    display: flex;
-
-}
-
-.flexcoment {
-
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-width: 50vw;
-
-}
-.swiper-slide2  {
-
-    margin: 0rem auto 2rem auto;
-    padding: 0 auto 0rem auto;
+    .what-our-clients-says > h4 > span {
+    
+    
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        background-position-y: 15px;
+        background-position-x: 150px;
+        padding-right: 9px;
+        width: 800px;
     
     }
     
-.swiper-button-prev, .swiper-button-next {
-
-    display: none;
-}
-
-.swiper-pagination {
-
---swiper-pagination-bullet-size: 12px;
---swiper-pagination-bullet-inactive-color: #000;
---swiper-pagination-bullet-inactive-opacity: 0.2;
-
-
-}
-
-}
+    .box-comentarios {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 498.46px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);  
+        padding: 10px 5px 13px 5px;
+        width: 400px;
+        margin: 2rem auto 0rem auto;
+    
+    
+    }
+    
+    
+    
+    .linha{
+    
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .comentarios1 {
+    
+        width: 391.67px;
+        height: 90px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        padding: 0 0 0 0;
+    }
+    
+    
+    .conteiner__comentario {
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        text-align: start;
+        justify-items: center;
         
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+        
+        
+        }
+    
+    .avatar {
+    
+        display: flex;
+        padding: 0px 10px 0px 0px;
+        width: 95px;
+        height: 95px;
+        padding: auto 0px auto 0px;
+        margin: auto 0 ;
+    
+    }
+    
+    .nome-avatar {
+    
+        width: 290px;
+        height: 36px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        padding: 0 0 0 0;
+    }
+    
+    .comentarios2 {
+    
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.1875rem;
+        line-height: 167%;
+        letter-spacing: -0.02em;
+        padding: 0 0 0 0px;
+        width: 290px;
+        height: 40px;
+    
+    }
+    
+    #comentario1 {
+    
+        display: flex;
+    
+    }
+    
+    .flexcoment {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50vw;
+    
+    }
+    .swiper-slide2  {
+    
+        margin: 0rem auto 2rem auto;
+        padding: 0 auto 0rem auto;
+        
+        }
+        
+    .swiper-button-prev, .swiper-button-next {
+    
+        display: none;
+    }
+    
+    .swiper-pagination {
+    
+    --swiper-pagination-bullet-size: 12px;
+    --swiper-pagination-bullet-inactive-color: #000;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    
+    
+    }
+    
+    }
