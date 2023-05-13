@@ -82,12 +82,10 @@ line-height: 1.875rem;
         background-color: var(--cor-principal);
         width: auto;
         height: 590px;
-        padding: 113px 32px 0px 32px;
-        margin: 0 auto;
+        padding: 104px 32px 1px 47px;        margin: 0 auto;
         text-align: center;
         justify-content: center;
         justify-items: center;
-    }
     
     }
     

@@ -386,7 +386,7 @@ hr {
         flex-wrap: wrap;
         width: auto;
         margin: 0 auto;
-        padding: 15px;
+        padding: 1px 0px 25px 0px;
         align-items: center;
         justify-items: center;
     }
