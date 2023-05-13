@@ -129,7 +129,7 @@ padding: 40px 0px 15px 10px;
         background-color: var(--cor-branco);
         padding: 5rem 1rem;
         height: 780px;
-        margin: 1.5rem 2rem 5rem 2rem;
+        margin: 1.5rem auto;
         
     }
     
@@ -175,9 +175,9 @@ padding: 40px 0px 15px 10px;
         height: 412.46000000000004px;
         border-radius: 10px;
         box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
-        padding: 60px 0px 64px 19px;
+        padding: 30px 0px 36px 19px;
         width: 420px;
-        margin: 2rem auto 0rem auto
+        margin: 2rem auto 0rem auto;
     
     
     }
@@ -241,7 +241,7 @@ padding: 40px 0px 15px 10px;
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
-        padding: 0 0 0 0;
+        padding: 0 0 12px 0;
     }
     
     .comentarios2 {
