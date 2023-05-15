@@ -3,7 +3,6 @@
     background-color: var(--cor-principal);
     width: auto;
     padding: 6.25rem 1rem 2rem 1rem;
-
 }
 
 .try-whitepace-today > h4 {
@@ -15,18 +14,17 @@
     line-height: 2.75rem;
     letter-spacing: -0.02em;
     height: 7.5rem;
-
 }
 
 .try-whitepace-today > p {
 
-font-style: normal;
-font-weight: 300;
-font-size: 1.150rem;
-line-height: 167%;
-text-align: start;
-letter-spacing: -0.02em;
-color: var(--cor-branco);
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.150rem;
+    line-height: 167%;
+    text-align: start;
+    letter-spacing: -0.02em;
+    color: var(--cor-branco);
 }
 
 .button1_try-whitepace-today {
@@ -48,19 +46,17 @@ color: var(--cor-branco);
     letter-spacing: -0.02em;
     text-decoration: none;
     text-align: center;
-
 }
 
 .contatolink {
 
-text-decoration: none;
-color:var(--cor-branco);
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 1.125rem;
-line-height: 1.875rem;
-
+    text-decoration: none;
+    color:var(--cor-branco);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
 }
 
 .box-logos {
@@ -68,8 +64,6 @@ line-height: 1.875rem;
     display: flex;
     margin: 2.1875rem 0rem 0rem 0rem;
     gap: 2.5rem;
-
-
 }
 
 @media screen and (min-width:1152px) {
@@ -79,110 +73,61 @@ line-height: 1.875rem;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: var(--cor-principal);
-        width: auto;
         height: 590px;
         padding: 104px 32px 1px 47px;
         margin: 0 auto;
         text-align: center;
         justify-content: center;
         justify-items: center;
-    
     }
     
     .try-whitepace-today > h4 {
     
-        color: var(--cor-branco);
         width: 600px;
         height: 174px;
         margin: 0px auto 24px auto;
-        /* Header/H1 */
-        
         font-family: 'Inter';
         font-style: normal;
-        font-weight: 700;
         font-size: 72px;
         line-height: 87px;
         text-align: center;
-        letter-spacing: -0.02em;
-    
     }
-    
 
     .try-whitepace-today > p {
-    
 
         width: 550px;
         height: 64px;
         margin: 0 auto;
-        
-        /* Paragraph/P2/Regular */
-        
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 24px;
         line-height: 32px;
-        /* or 133% */
-        
         text-align: center;
-        letter-spacing: -0.02em;
-        color: var(--cor-branco);
-
     }
     
     .button1_try-whitepace-today {
     
-        display: flex;
-        flex-direction: row;
-        gap: 0.625rem;
-        align-items: center;
         margin: 2.375rem auto 2.5rem auto;
-        width: 10rem;
-        padding: 1.0625rem 1.5625rem 1.0625rem 1.875rem;
-        background: #4F9CF9;
-        color: var(--cor-branco);
-        border-radius: 0.5rem;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.125rem;
-        line-height: 167%;
-        letter-spacing: -0.02em;
-        text-decoration: none;
-        text-align: center;
-    
     }
     
     .contatolink {
     
-    text-decoration: none;
-    color:var(--cor-branco);
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: -0.02em;
-    
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.02em;
     }
     
     .box-logos {
-    
-        display: flex;
-        margin: 2.1875rem 0rem 0rem 0rem;
-        gap: 2.5rem;
+
         margin: 0 auto;
-    
-    
     }
 
     .box-logos > img {
-    padding: 2rem 0rem 0rem 0rem;
-    height: 65px;
 
+        padding: 2rem 0rem 0rem 0rem;
+        height: 65px;
     }
 
-
-    
 }

@@ -1,26 +1,19 @@
-.swiper {
-
-
-    
-}
-
 .swiper-wrapper {
 
-align-items: center;
+    align-items: center;
 }
 
 .swiper-slide  {
 
-margin: 0rem auto 5rem auto;
-padding: 0 auto 5rem auto;
-justify-content: center;
-align-items: center;
-
+    margin: 0rem auto 5rem auto;
+    padding: 0 auto 5rem auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .swiper-button-prev, .swiper-button-next {
 
-display: none;
+    display: none;
 }
 
 .swiper-pagination {
@@ -28,7 +21,5 @@ display: none;
     --swiper-pagination-bullet-size: 12px;
     --swiper-pagination-bullet-inactive-color: #000;
     --swiper-pagination-bullet-inactive-opacity: 0.2;
-
-
 }
 

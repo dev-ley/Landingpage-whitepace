@@ -5,21 +5,19 @@
 @import url(choose-your-plan.css); @import url(your-work-everywhere-you-are.css); @import url(your-data.css); @import url(our-sponsors.css); @import url(work-with-your-favorite-apps.css); @import url(what-our-clients-says.css);
 @import url(try-whitepace-today.css); @import url(footer.css); @import url(carrossel.css);
 
-
-
 :root {
 
---cor-principal: #043873;
---cor-secundaria: #C4DEFD;
---cor-branco: #ffffff;
---cor-titulos: #212529;
---cor-destaque: #FFE492;
---cor-box: #4F9CF9;
---font-principal: 'Inter';
-
+    --cor-principal: #043873;
+    --cor-secundaria: #C4DEFD;
+    --cor-branco: #ffffff;
+    --cor-titulos: #212529;
+    --cor-destaque: #FFE492;
+    --cor-box: #4F9CF9;
+    --font-principal: 'Inter';
 }
 
 * { 
+    
     margin: 0;
     padding: 0;
     font-family: var(--font-principal);
