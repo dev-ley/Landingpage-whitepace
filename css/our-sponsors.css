@@ -1,9 +1,7 @@
 .our-sponsors {
 
-align-items: center;
-
+    align-items: center;
 }
-
 
 .our-sponsors > h4 {
 
@@ -19,15 +17,13 @@ align-items: center;
 
 .our-sponsors > h4 > span {
 
-background-image: url(../img/Mobile/img-our-sponsors/Element.png);
-background-repeat: no-repeat;
-background-position-y: 35px;
-height: 6rem;
-padding-bottom: 3rem;
-padding-left: 0.5rem;
-padding-right: 1rem;
-
-
+    background-image: url(../img/Mobile/img-our-sponsors/Element.png);
+    background-repeat: no-repeat;
+    background-position-y: 35px;
+    height: 6rem;
+    padding-bottom: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
 }
 
 .our-sponsors > img {
@@ -45,33 +41,21 @@ padding-right: 1rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
         height: 480px;
-
     }
         
+    .our-sponsors > h4 {
         
-        .our-sponsors > h4 {
-        
-
         width: 100vw;
         height: 87px;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
         font-size: 72px;
         line-height: 87px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        color:var(--cor-titulos)
-
-        }
+    }
         
-        .our-sponsors > h4 > span {
+    .our-sponsors > h4 > span {
         
         display: inline-flex;
         background-image: url(../img/Desktop/img-work-together/Element.png);
-        background-repeat: no-repeat;
         background-size: 106% 38%;
         background-position-x: 3px;
         background-position-y: 68px;        
@@ -79,18 +63,13 @@ padding-right: 1rem;
         padding-bottom: 0rem;
         padding-left: 0rem;
         padding-right: 0rem;
+    }
         
+    .our-sponsors > img {
         
-        }
-        
-        .our-sponsors > img {
-        
-            display: flex;
-            align-items: center;
-            margin: 0rem auto 5rem auto;
-            height: 75px;
-
-        }
-
+        display: flex;
+        margin: 0rem auto 5rem auto;
+        height: 75px;
+    }
     
 }

@@ -16,12 +16,10 @@
     line-height: 2.75rem;
     text-align: center;
     letter-spacing: -0.02em;
-
     color:var(--cor-titulos);
 }
 
 .choose-your-plan > h4 > span {
-
 
     display: inline-flex;
     background-image: url(../img/Mobile/img-choose-your-plan/Element.png);
@@ -32,8 +30,6 @@
     height: 5rem;
     padding-right: 20px;
     padding-left: 10px;
-    
-
 }
 
 
@@ -60,8 +56,6 @@
     height: 602px;
     padding: 1.25rem 1rem 0rem 1rem;
     gap: 25px;
-
-
 }
 
 .box-preco1 > h5 {
@@ -75,7 +69,6 @@
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin-bottom: 1.5rem;
-
 }
 
 .box-preco1 > span {
@@ -87,18 +80,14 @@
     line-height: 2.75rem;
     letter-spacing: -0.02em;
     color: var(--cor-titulos);
-
 }
 
 .box-preco1 > p {
 
-margin-top: 1.5625rem;
-color: var(--cor-titulos);
-margin-bottom: 1.25rem;
+    margin-top: 1.5625rem;
+    color: var(--cor-titulos);
+    margin-bottom: 1.25rem;
 }
-
-
-
 
 .box-preco1 > ul> li {
 
@@ -108,9 +97,6 @@ margin-bottom: 1.25rem;
     color: var(--cor-titulos);
     text-align: start;
     margin-left: 1.875rem;
-    
-
-
 }
 
 .box-preco1 > a {
@@ -131,7 +117,6 @@ margin-bottom: 1.25rem;
     line-height: 167%;
     letter-spacing: -0.02em;
     text-decoration: none;
-
 }
 
 .box-preco2 {
@@ -143,21 +128,19 @@ margin-bottom: 1.25rem;
     width: auto;
     height: 40.1255rem;
     padding: 1.25rem 0rem 0.8125rem 0.625rem;
-
 }
 
 .box-preco2 > h5 {
 
     width: 15.5625rem;
     height: 2.25rem;
-    color: #ffffff;
+    color: var(--cor-branco);
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin-bottom: 1.5rem;
-
 }
 
 .box-preco2 > span {
@@ -169,18 +152,14 @@ margin-bottom: 1.25rem;
     line-height: 2.75rem;
     letter-spacing: -0.02em;
     color: var(--cor-destaque);
-
 }
 
 .box-preco2 > p {
 
-margin-top: 1.5625rem;
-color: #ffffff;
-margin-bottom: 1.25rem;
+    margin-top: 1.5625rem;
+    color: var(--cor-branco);
+    margin-bottom: 1.25rem;
 }
-
-
-
 
 .box-preco2 > ul> li {
 
@@ -190,9 +169,6 @@ margin-bottom: 1.25rem;
     color: var(--cor-branco);
     text-align: start;
     margin-left: 1.875rem;
-    
-
-
 }
 
 .box-preco2 > a {
@@ -212,9 +188,7 @@ margin-bottom: 1.25rem;
     line-height: 167%;
     letter-spacing: -0.02em;
     text-decoration: none;
-
 }
-
 
 .box-img {
 
@@ -224,74 +198,47 @@ margin-bottom: 1.25rem;
 
 .box-img > img {
 
-margin: 5.625rem auto;
-
-
-
+    margin: 5.625rem auto;
 }
-
     
 #tituloyourplandesk {
     
-display: none;
-
-    }
-
-
+    display: none;
+}
 
 @media screen and (min-width:1152px) {
     
     .choose-your-plan {
 
-        width: auto;
-        background-color: var(--cor-branco);
         padding: 4rem 1rem 1rem 1rem;
     }
     
     .choose-your-plan > h4 {
     
-        height: 7.6rem;
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 700;
         font-size: 72px;
         line-height: 87px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        text-align: center;
-        letter-spacing: -0.02em;
-    
-        color:var(--cor-titulos);
     }
     
     .choose-your-plan > h4 > span {
     
-    
-        display: inline-flex;
         background-image: url(../img/Desktop/img-work-together/Element.png);
-        background-repeat: no-repeat;
         background-size: 100%;
         background-position-x: 20px;
         background-position-y: 60px;
-
         height: 6rem;
-        padding-right: 20px;
-        padding-left: 10px;
-    
     }
 
-
-
     #tituloyourplanmobile {
-    display: none;
+
+        display: none;
     }
 
     #tituloyourplandesk {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: 0 auto;
 
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     #tituloyourplandesk > h4 {
@@ -306,168 +253,90 @@ display: none;
         letter-spacing: -0.02em;
         text-align: center;
         letter-spacing: -0.02em;
-    
         color:var(--cor-titulos);
     } 
-    
     
     .choose-your-plan > p {
     
         font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
         font-size: 18px;
         line-height: 30px;
-        /* or 167% */
         width: 979px;
         margin: 0 auto;
-        text-align: center;
-        letter-spacing: -0.02em;
-        color: #212529;
         margin-bottom: 60px;
-        
     }
-    
 
     .box-preco1 {
 
-        border: var(--cor-destaque) 1px solid;
         margin: 0rem auto;
-        background-color: var(--cor-branco);
-        border-radius: 0.625rem;
-        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);  
         width: 350px;
         height: 654px;
         padding: 40px 44px;
-        gap: 25px;
-    
     }
 
     .box-preco1 > h5 {
 
         width: 349.33px;
-        height: 2.25rem;
-        color: black;
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
-        margin-bottom: 1.5rem;
-    
     }
     
     .box-preco1 > span {
     
-        width: 15.5625rem;
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 44px;
-        letter-spacing: -0.02em;
-        color: var(--cor-titulos);
-    
     }
     
     .box-preco1 > p {
     
-    margin-top: 1.5625rem;
-    color: var(--cor-titulos);
-    margin-bottom: 1.25rem;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 23px;
-    width: 349.33px;
-
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        width: 349.33px;
     }
     
     .box-preco1 > ul> li {
     
         list-style-image: url(../img/Mobile/img-choose-your-plan/Icon2.svg);
-        list-style-position: outside;
         justify-content: center;
         justify-items: center;
         align-items: center;
-
         padding: 0.6rem 0rem 1.5rem 0.7rem;
-        color: var(--cor-titulos);
-        text-align: start;
-        margin-left: 1.875rem;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
-        
-    
-    
     }
-    
-    .box-preco1 > a {
-    
-        display: flex;
-        flex-direction: row;
-        padding: 0.7rem 1.6rem;
-        max-width: 100px;
-        margin: 0rem 0.625rem 0.625rem 0.625rem ;
-        text-align: center;
-        background: var(--cor-branco);
-        color: var(--cor-titulos);
-        border: var(--cor-destaque) 1px solid ;
-        border-radius: 0.5rem;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.125rem;
-        line-height: 167%;
-        letter-spacing: -0.02em;
-        text-decoration: none;
-    
-    }
-    
+
     .box-preco2 {
 
         margin: 0rem auto;
-        background-color: var(--cor-principal);
-        border-radius: 0.625rem;
-        box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);  
         width: 360px;
         height: 751px;
         padding: 5rem 2.5rem 0rem 2.5rem;
-    
     }
 
     .box-preco2 > h5 {
 
         width: 349.33px;
-        height: 2.25rem;
         color: var(--cor-branco);
-        font-family: 'Inter';
-        font-style: normal;
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
-        margin-bottom: 1.5rem;
-    
     }
     
     .box-preco2 > span {
     
-        width: 15.5625rem;
-        font-style: normal;
-        font-weight: 700;
         font-size: 36px;
         line-height: 44px;
-        letter-spacing: -0.02em;
-        color: var(--cor-destaque);
-    
     }
     
     .box-preco2 > p {
     
-        margin-top: 1.5625rem;
-        color: var(--cor-branco);
-        margin-bottom: 1.25rem;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
@@ -479,53 +348,11 @@ display: none;
     .box-preco2 > ul> li {
     
         list-style-image: url(../img/Mobile/img-choose-your-plan/Icon.svg);
-        list-style-position: outside;
         padding: 0.6rem 2rem 1.5rem 0.7rem;
-        color: var(--cor-branco);
-        text-align: start;
-        margin-left: 1.875rem;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 20px;
-        
-    
-    
     }
-    
-    .box-preco2 > a {
-    
-        display: flex;
-        flex-direction: row;
-        padding: 1.125rem 2.5rem;
-        max-width: 100px;
-        margin: 1.625rem 0.625rem 0.625rem 0.625rem ;
-        text-align: center;
-        background: #4F9CF9;
-        color: var(--cor-branco);
-        border-radius: 0.5rem;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1.125rem;
-        line-height: 167%;
-        letter-spacing: -0.02em;
-        text-decoration: none;
-    
-    }
-    
-    
-    .box-img {
-    
-        display: flex;
-        align-items: center;
-    }
-    
-    .box-img > img {
-    
-    margin: 5.625rem auto;
-    
-    }
-
-
 
 }
