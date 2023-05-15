@@ -9,7 +9,20 @@
 </head>
 <body>
     
+    <header class="cabecalho">
+        <div class="conteiner_cabecalho">
+            <img src="img/Mobile/imgheader/Logo Icon.png"  alt="logo da white place" class="logocabecalho"> 
+            <h1 class="titulo_header">whitepace</h1>
+        </div>
 
+        <nav class="conteiner_cabecalho" class="icone-menu"> 
+            <input type="checkbox" id="menu" class="conteiner__botao">
+            <label for="menu">
+                <img src="img/Mobile/imgheader/Btn.png" alt="icone do menu hamburguer " class="icone-menu">
+            </label>
+
+        </nav>
+    </header>
 
     <main class="principal">
         <h2 class="principal__titulo">Dados do cadastro</h2>
@@ -42,6 +55,7 @@
             <div class="formulario__campo">
                 <label class="campo__etiqueta" for="cep">CEP</label>
                 <input name="cep" id="cep" class="campo__escrita" required />
+                <div id="erro"></div>
             </div>
 
             <div class="formulario__campo">
@@ -108,7 +122,7 @@
             <input type="submit" value="Enviar formulário" class="formulario__botao" id="enviar">
         </form>
     </main>
-    <script src="js/cepauto.js"></script>
 
+    <script src="js/cepauto.js"></script>
 </body>
 </html>
