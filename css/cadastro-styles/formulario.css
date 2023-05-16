@@ -7,7 +7,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    color: var(--azul)
+    color: var(--azul);
+    margin: 0 auto;
 }
 
 .principal__subtitulo {
@@ -19,7 +20,7 @@
 }
 
 .campo__etiqueta {
-    display: block;
+    display: flex;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -35,6 +36,7 @@
 }
 
 .formulario__campo {
+
     margin: .6em 3em .6em 0;
 
 }
@@ -74,4 +76,58 @@
     font-size: 12px;
     line-height: 18px;
     color: var(--vermelho);
+}
+
+@media screen and (max-width:700px) {
+
+    .principal {
+        width: 80vw;
+        margin: 5em auto 6em auto;
+        text-align: center;
+    }
+
+    .campo__escrita {
+        
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid var(--azul);
+        border-radius: 24px;
+        padding: 1em;
+        width: 100%;
+    }
+    
+    .formulario__campo {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: .6em 1em .6em 0;
+    
+    }
+
+    .campo__etiqueta {
+        display: flex;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--azul);
+        margin-left: 1em;
+    }
+
+    .formulario__botao {
+        display: flex;
+        background: var(--azul);
+        padding: 1em 1em;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        border: none;
+        color: var(--branco);
+        margin: 0 auto;
+        float: none;
+        width: auto;
+    
+        }
 }
