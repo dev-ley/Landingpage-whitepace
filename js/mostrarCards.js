@@ -1,36 +1,35 @@
 import { conectaApi } from "./conectaApi.js";
 
-
 const lista = document.querySelector("[data-lista]");
 
 
-function constroiCard(nome, comentario, cargo, foto) {
+
+function constroiCard(nome, comentario, cargo, foto, id, aspas) {
 
     const card = document.createElement("div");
     card.className = "swiper-slide";
-    card.innerHTML = `<div class="box-comentarios" style="background-color: var(--cor-box);">
-    <img class="aspas" src="img/Mobile/img-what-our-clients-says/Group.png" width="80px" height="60px" alt="figura contendo imagem de uma aspas">
-    <p style="color:#fff;"  class="comentarios1" >${comentario}</p>
-    <p style="color:#fff;"  class="linha" >_________________________________</p>
+    card.innerHTML = ` <div class="swiper-slide"> <div class="box-comentarios" id= "${id}">
+    <img class="aspas" src="${aspas}" width="80px" height="60px" alt="figura contendo imagem de uma aspas">
+    <p  class="comentarios1">${comentario}</p>
+    <p   class="linha" >_________________________________</p>
     <div class="conteiner__comentario">
-        <img style="border-radius: 20px;" class="avatar" src="${foto}"  alt="">
+        <img style="border-radius: 20px; width:20%"  class="avatar" src="${foto}"  alt="">
         <div>
             <p class="nome-avatar">${nome}</p>
-            <p style="color:#fff;" class="comentarios2">${cargo}</p>
+            <p  id= "${id}" class="comentarios2">${cargo}</p>
         </div>
-        <div class="swiper-button-next"></div>
-
-        
+    </div>
     </div>
     </div>`
-    
+
     return card;
 }
 
 async function listaCards() {
 
     const listaApi = await conectaApi.listaCards();
-    listaApi.forEach(elemento => lista.appendChild(constroiCard(elemento.nome, elemento.comentario, elemento.cargo, elemento.foto)));
+    listaApi.forEach(elemento => lista.appendChild(constroiCard(elemento.nome, elemento.comentario, elemento.cargo, elemento.foto, elemento.id, elemento.aspas)));
+    
 }
 
 listaCards();

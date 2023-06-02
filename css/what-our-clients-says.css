@@ -37,6 +37,8 @@
     padding: 10px 5px 13px 15px;
     width: 255px;
     margin: 3.75rem auto 1rem auto;
+    background-color: var(--cor-box);
+
 }
 
 .box-comentarios > hr {
@@ -80,6 +82,8 @@
     font-size: 1.1875rem;
     line-height: 167%;
     letter-spacing: -0.02em;
+    color: white;
+
 }
 
 #comentario1 {
@@ -103,6 +107,18 @@
 --swiper-pagination-bullet-size: 12px;
 --swiper-pagination-bullet-inactive-color: #000;
 --swiper-pagination-bullet-inactive-opacity: 0.2;
+}
+
+#card1 {
+
+    background-color: white;
+    color: black
+}
+
+#card1 > p  {
+
+    color: black;
+
 }
 
 @media screen and (min-width:1152px) {
@@ -150,13 +166,16 @@
         padding: 30px 0px 36px 19px;
         width: 420px;
         margin: 2rem auto 0rem auto;
+        background-color: var(--cor-box);
     }
+    
     
     .linha {
 
         font-size: 25px;
         margin: 0 auto;
         text-align: center;
+        color: white;
     }
     .comentarios1 {
     
@@ -170,6 +189,7 @@
         letter-spacing: -0.02em;
         padding: 0 0 0 0;
         margin: 0 0 0 0;
+        color: white;
     }
     
     
@@ -212,7 +232,7 @@
         padding: 0 0 0 0px;
         width: 290px;
         height: 40px;
-    
+        color: white;
     }
     
     #comentario1 {
@@ -227,5 +247,21 @@
         flex-wrap: wrap;
         width: 50vw;
     }
+
+    #card1 {
+
+        background-color: white;
+        color: black
+    }
+
+    #card1 > p  {
+
+        color: black;
+
+    }
+
+
+
+    
     
 }
