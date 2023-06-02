@@ -1,8 +1,17 @@
 .principal {
     width: 50vw;
     margin: 5em auto 6em auto;
+    text-align: center;
+
 }
 
+.formulario__etapas {
+
+    width: 70%;
+    margin: 0 auto 2rem auto;
+
+
+}
 .principal__titulo {
     font-style: normal;
     font-weight: 700;
@@ -17,6 +26,7 @@
     line-height: 26px;
     color: var(--azul);
     margin: 3em 0 2em 0;
+    text-align: start;
 }
 
 .campo__etiqueta {
@@ -54,7 +64,7 @@
     border: none;
     color: var(--branco);
     cursor: pointer;
-    float: right;
+    float: none;
 }
 
 .formulario__erro {
@@ -76,6 +86,18 @@
     font-size: 12px;
     line-height: 18px;
     color: var(--vermelho);
+}
+
+
+.termosbox > input {
+
+    margin: 10px;
+}
+.termosbox {
+
+    display: flex;
+    margin: 2rem;
+    text-align: start;
 }
 
 @media screen and (max-width:700px) {
@@ -127,7 +149,6 @@
         color: var(--branco);
         margin: 0 auto;
         float: none;
-        width: auto;
     
         }
 }
