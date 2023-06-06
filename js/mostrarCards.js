@@ -2,8 +2,6 @@ import { conectaApi } from "./conectaApi.js";
 
 const lista = document.querySelector("[data-lista]");
 
-
-
 function constroiCard(nome, comentario, cargo, foto, id, aspas) {
 
     const card = document.createElement("div");
@@ -21,15 +19,12 @@ function constroiCard(nome, comentario, cargo, foto, id, aspas) {
     </div>
     </div>
     </div>`
-
     return card;
 }
 
 async function listaCards() {
-
     const listaApi = await conectaApi.listaCards();
     listaApi.forEach(elemento => lista.appendChild(constroiCard(elemento.nome, elemento.comentario, elemento.cargo, elemento.foto, elemento.id, elemento.aspas)));
-    
 }
 
 listaCards();

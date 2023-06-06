@@ -55,6 +55,7 @@
     line-height: 125%;
     letter-spacing: -0.02em;
     align-self: stretch;
+    color: white;
 }
 
 .avatar {
@@ -89,6 +90,16 @@
 #comentario1 {
 
     display: none;
+    color: white;
+
+}
+
+.linha {
+
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
 }
 
 .swiper-slide2  {

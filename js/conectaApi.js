@@ -1,5 +1,5 @@
 async function listaCards() {
-    const conexao = await fetch ("http://localhost:3000/cards");
+    const conexao = await fetch ("https://landingpage-whitepace.vercel.app/db.json");
     const conexaoConvertida = await conexao.json();
 
     return conexaoConvertida;
