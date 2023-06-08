@@ -6,5 +6,6 @@ async function listaCards() {
 }
 
 export const conectaApi = {
-    listaCards
+    listaCards,
+    
 }
