@@ -43,7 +43,8 @@
 
 .box-comentarios > hr {
 
-    color: black
+    color: black;
+    height: 1px;
 }
 .comentarios1 {
 
