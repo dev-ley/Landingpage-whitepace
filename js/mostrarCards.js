@@ -9,7 +9,7 @@ function constroiCard(nome, comentario, cargo, foto, id, aspas) {
     card.innerHTML = ` <div class="swiper-slide"> <div class="box-comentarios" id= "${id}">
     <img class="aspas" src="${aspas}" width="80px" height="60px" alt="figura contendo imagem de uma aspas">
     <p  class="comentarios1">${comentario}</p>
-    <p   class="linha" >_________________________________</p>
+    <hr  class="linha" ></hr>
     <div class="conteiner__comentario">
         <img style="border-radius: 20px; width:20%"  class="avatar" src="${foto}"  alt="">
         <div>
