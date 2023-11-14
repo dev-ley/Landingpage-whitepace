@@ -3,10 +3,10 @@
       {
 
         "id": "card1",
-        "nome": "Alessandra",
+        "nome": "Lily",
         "comentario": "Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
         "cargo": "PRESIDENTA, Head of Talent Acquisition, North America",
-        "foto": "https://scontent.fsdu29-1.fna.fbcdn.net/v/t39.30808-6/322730563_468466608772214_6983191525693494125_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=_FUzlMsS9mEAX_xPHM5&_nc_ht=scontent.fsdu29-1.fna&oh=00_AfCsWppx_os7eNJNCC0rOETrcvuJcDkNQ_x5OiKUaTdJig&oe=6492D0A8",
+        "foto": "https://github.com/LilianaLessa.png",
         "aspas": "img/desktop/img-what-our-clients-says/Group.png"
         
       },
@@ -15,23 +15,23 @@
         "nome": "Wesley",
         "comentario": "Bacana ,Whitepate is designed as a collaboration tool for businesses that is a full project management solution. ",
         "cargo": "Estagiario, Head of Talent Acquisition, North America",
-        "foto": "https://scontent.fsdu29-1.fna.fbcdn.net/v/t39.30808-6/271773710_1608778769458048_1440967487252773033_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=jjdsUoMYyScAX8d8EiA&_nc_ht=scontent.fsdu29-1.fna&oh=00_AfAfAcoxU27bkGkwqWpi_HifBNtBJDUYp4fBSQcBdBT0pQ&oe=649403C1",
+        "foto": "https://github.com/dev-ley.png",
         "aspas": "img/Mobile/img-what-our-clients-says/Group.png"
       },
       {
         "id": "card3",
-        "nome": "Evandro ",
+        "nome": "Tiago ",
         "comentario": "Show de bola, Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
         "cargo": "Chefe, Head of Talent Acquisition, North America",
-        "foto": "https://scontent.fsdu29-1.fna.fbcdn.net/v/t39.30808-6/310393102_4947566222010010_7024066165100375038_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=d5ZiBfqITvIAX_gP9yC&_nc_ht=scontent.fsdu29-1.fna&oh=00_AfB8eSYPywMxifO-P2qJAsWbXZqlkv82KJS6mjVlSSwCuA&oe=6492F3E2",
+        "foto": "https://github.com/godinhothyago.png",
         "aspas": "img/Mobile/img-what-our-clients-says/Group.png"
       },
       {
         "id": "card4",
-        "nome": "Elvis",
+        "nome": "Pedro",
         "comentario": "Brabissimo, Whitepate is designed as a collaboration tool for businesses that is a full project management solution.",
         "cargo": "Developer, Head of Talent Acquisition, North America",
-        "foto": "https://scontent-gig4-1.xx.fbcdn.net/v/t1.18169-9/1902901_796399903808949_6648135981702851070_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JmnACRRhAUcAX_jWRCW&_nc_ht=scontent-gig4-1.xx&oh=00_AfBX0ZFVKmRXGtjEzG_SWbMEWbdcvSWyNQyz3IvzmUOnnA&oe=64A9E358",
+        "foto": "https://github.com/CyberPedro0.png",
         "aspas": "img/Mobile/img-what-our-clients-says/Group.png"
       },
       {
