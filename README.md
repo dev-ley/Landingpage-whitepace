@@ -1,5 +1,3 @@
-# Landingpage-whitepace
-
 # Descrição do Projeto: Site Interativo com Recursos Avançados
 
 ## Visão Geral
